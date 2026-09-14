@@ -1,0 +1,3813 @@
+nohup: ignoring input
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.33 (git sha1 2584903a060)
+
+
+-- Executing script file `synth_u1_r3_noflat.ys' --
+
+1. Executing Verilog-2005 frontend: u1_r3_761_0603.v
+Parsing Verilog input from `u1_r3_761_0603.v' to AST representation.
+Generating RTLIL representation for module `\u1_r3_761'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: ue_v14_real_0603.v
+Parsing Verilog input from `ue_v14_real_0603.v' to AST representation.
+Generating RTLIL representation for module `\ue_v14_real'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: ue_v12_real_0603.v
+Parsing Verilog input from `ue_v12_real_0603.v' to AST representation.
+Generating RTLIL representation for module `\ue_v12_real'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: ue_v12_complex_0603.v
+Parsing Verilog input from `ue_v12_complex_0603.v' to AST representation.
+Generating RTLIL representation for module `\ue_v12_complex'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: ue_v11_real_0603.v
+Parsing Verilog input from `ue_v11_real_0603.v' to AST representation.
+Generating RTLIL representation for module `\ue_v11_real'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: ub_complex_31_0603.v
+Parsing Verilog input from `ub_complex_31_0603.v' to AST representation.
+Generating RTLIL representation for module `\ub_complex_31'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: ub_real_31_0603.v
+Parsing Verilog input from `ub_real_31_0603.v' to AST representation.
+Generating RTLIL representation for module `\ub_real_31'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: ub_complex_29_0603.v
+Parsing Verilog input from `ub_complex_29_0603.v' to AST representation.
+Generating RTLIL representation for module `\ub_complex_29'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: ub_real_29_0603.v
+Parsing Verilog input from `ub_real_29_0603.v' to AST representation.
+Generating RTLIL representation for module `\ub_real_29'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: ka2_real_0603.v
+Parsing Verilog input from `ka2_real_0603.v' to AST representation.
+Generating RTLIL representation for module `\ka2_real'.
+Successfully finished Verilog frontend.
+
+11. Executing Verilog-2005 frontend: v1_complex_0603.v
+Parsing Verilog input from `v1_complex_0603.v' to AST representation.
+Generating RTLIL representation for module `\v1_complex'.
+Successfully finished Verilog frontend.
+
+12. Executing Verilog-2005 frontend: sb16_f9.v
+Parsing Verilog input from `sb16_f9.v' to AST representation.
+Generating RTLIL representation for module `\sb16_f9'.
+Successfully finished Verilog frontend.
+
+13. Executing Verilog-2005 frontend: sb15_f9.v
+Parsing Verilog input from `sb15_f9.v' to AST representation.
+Generating RTLIL representation for module `\sb15_f9'.
+Successfully finished Verilog frontend.
+
+14. Executing Verilog-2005 frontend: sb14_f9.v
+Parsing Verilog input from `sb14_f9.v' to AST representation.
+Generating RTLIL representation for module `\sb14_f9'.
+Successfully finished Verilog frontend.
+
+15. Executing Verilog-2005 frontend: sb6_f9.v
+Parsing Verilog input from `sb6_f9.v' to AST representation.
+Generating RTLIL representation for module `\sb6_f9'.
+Successfully finished Verilog frontend.
+
+16. Executing Verilog-2005 frontend: sbr16_f3.v
+Parsing Verilog input from `sbr16_f3.v' to AST representation.
+Generating RTLIL representation for module `\sbr16_f3'.
+Successfully finished Verilog frontend.
+
+17. Executing Verilog-2005 frontend: sbr15_f3.v
+Parsing Verilog input from `sbr15_f3.v' to AST representation.
+Generating RTLIL representation for module `\sbr15_f3'.
+Successfully finished Verilog frontend.
+
+18. Executing Verilog-2005 frontend: sbr14_f3.v
+Parsing Verilog input from `sbr14_f3.v' to AST representation.
+Generating RTLIL representation for module `\sbr14_f3'.
+Successfully finished Verilog frontend.
+
+19. Executing Verilog-2005 frontend: f9_mul.v
+Parsing Verilog input from `f9_mul.v' to AST representation.
+Generating RTLIL representation for module `\f9_mul'.
+Successfully finished Verilog frontend.
+
+20. Executing Verilog-2005 frontend: f3_mul.v
+Parsing Verilog input from `f3_mul.v' to AST representation.
+Generating RTLIL representation for module `\f3_mul'.
+Successfully finished Verilog frontend.
+
+21. Executing Verilog-2005 frontend: f3_add.v
+Parsing Verilog input from `f3_add.v' to AST representation.
+Generating RTLIL representation for module `\f3_add'.
+Successfully finished Verilog frontend.
+
+22. Executing Verilog-2005 frontend: f3_sub3_0603.v
+Parsing Verilog input from `f3_sub3_0603.v' to AST representation.
+Generating RTLIL representation for module `\f3_sub3'.
+Successfully finished Verilog frontend.
+
+23. Executing HIERARCHY pass (managing design hierarchy).
+
+23.1. Analyzing design hierarchy..
+Top module:  \u1_r3_761
+Used module:     \f3_add
+Used module:     \ue_v14_real
+Used module:         \f3_sub3
+Used module:         \ue_v11_real
+Used module:             \ub_real_29
+Used module:                 \sbr14_f3
+Used module:                     \f3_mul
+Used module:                 \sbr15_f3
+Used module:             \v1_complex
+Used module:                 \sb6_f9
+Used module:                     \f9_mul
+Used module:             \ka2_real
+Used module:         \ue_v12_complex
+Used module:             \ub_complex_29
+Used module:                 \sb14_f9
+Used module:                 \sb15_f9
+Used module:             \ub_complex_31
+Used module:                 \sb16_f9
+Used module:         \ue_v12_real
+Used module:             \ub_real_31
+Used module:                 \sbr16_f3
+
+23.2. Analyzing design hierarchy..
+Top module:  \u1_r3_761
+Used module:     \f3_add
+Used module:     \ue_v14_real
+Used module:         \f3_sub3
+Used module:         \ue_v11_real
+Used module:             \ub_real_29
+Used module:                 \sbr14_f3
+Used module:                     \f3_mul
+Used module:                 \sbr15_f3
+Used module:             \v1_complex
+Used module:                 \sb6_f9
+Used module:                     \f9_mul
+Used module:             \ka2_real
+Used module:         \ue_v12_complex
+Used module:             \ub_complex_29
+Used module:                 \sb14_f9
+Used module:                 \sb15_f9
+Used module:             \ub_complex_31
+Used module:                 \sb16_f9
+Used module:         \ue_v12_real
+Used module:             \ub_real_31
+Used module:                 \sbr16_f3
+Removed 0 unused modules.
+
+24. Executing SYNTH pass.
+
+24.1. Executing HIERARCHY pass (managing design hierarchy).
+
+24.1.1. Analyzing design hierarchy..
+Top module:  \u1_r3_761
+Used module:     \f3_add
+Used module:     \ue_v14_real
+Used module:         \f3_sub3
+Used module:         \ue_v11_real
+Used module:             \ub_real_29
+Used module:                 \sbr14_f3
+Used module:                     \f3_mul
+Used module:                 \sbr15_f3
+Used module:             \v1_complex
+Used module:                 \sb6_f9
+Used module:                     \f9_mul
+Used module:             \ka2_real
+Used module:         \ue_v12_complex
+Used module:             \ub_complex_29
+Used module:                 \sb14_f9
+Used module:                 \sb15_f9
+Used module:             \ub_complex_31
+Used module:                 \sb16_f9
+Used module:         \ue_v12_real
+Used module:             \ub_real_31
+Used module:                 \sbr16_f3
+
+24.1.2. Analyzing design hierarchy..
+Top module:  \u1_r3_761
+Used module:     \f3_add
+Used module:     \ue_v14_real
+Used module:         \f3_sub3
+Used module:         \ue_v11_real
+Used module:             \ub_real_29
+Used module:                 \sbr14_f3
+Used module:                     \f3_mul
+Used module:                 \sbr15_f3
+Used module:             \v1_complex
+Used module:                 \sb6_f9
+Used module:                     \f9_mul
+Used module:             \ka2_real
+Used module:         \ue_v12_complex
+Used module:             \ub_complex_29
+Used module:                 \sb14_f9
+Used module:                 \sb15_f9
+Used module:             \ub_complex_31
+Used module:                 \sb16_f9
+Used module:         \ue_v12_real
+Used module:             \ub_real_31
+Used module:                 \sbr16_f3
+Removed 0 unused modules.
+
+24.2. Executing PROC pass (convert processes to netlists).
+
+24.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+24.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+24.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+24.2.4. Executing PROC_INIT pass (extract init attributes).
+
+24.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+24.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+24.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+24.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+24.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+24.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+24.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+24.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_sub3.
+<suppressed ~1 debug messages>
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f9_mul.
+<suppressed ~2 debug messages>
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module sb6_f9.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module v1_complex.
+Optimizing module ka2_real.
+Optimizing module ub_real_29.
+Optimizing module ub_complex_29.
+Optimizing module ub_real_31.
+Optimizing module ub_complex_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module u1_r3_761.
+
+24.3. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_sub3.
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f9_mul.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module sb6_f9.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module v1_complex.
+Optimizing module ka2_real.
+Optimizing module ub_real_29.
+Optimizing module ub_complex_29.
+Optimizing module ub_real_31.
+Optimizing module ub_complex_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module u1_r3_761.
+
+24.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \v1_complex..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \u1_r3_761..
+Removed 1964 unused cells and 1970 unused wires.
+<suppressed ~3934 debug messages>
+
+24.5. Executing CHECK pass (checking for obvious problems).
+Checking module f3_add...
+Checking module f3_mul...
+Checking module f3_sub3...
+Checking module f9_mul...
+Checking module ka2_real...
+Checking module sb14_f9...
+Checking module sb15_f9...
+Checking module sb16_f9...
+Checking module sb6_f9...
+Checking module sbr14_f3...
+Checking module sbr15_f3...
+Checking module sbr16_f3...
+Checking module u1_r3_761...
+Checking module ub_complex_29...
+Checking module ub_complex_31...
+Checking module ub_real_29...
+Checking module ub_real_31...
+Checking module ue_v11_real...
+Checking module ue_v12_complex...
+Checking module ue_v12_real...
+Checking module ue_v14_real...
+Checking module v1_complex...
+Found and reported 0 problems.
+
+24.6. Executing OPT pass (performing simple optimizations).
+
+24.6.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f3_sub3.
+Optimizing module f9_mul.
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.6.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 0 cells.
+
+24.6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \f3_add..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_mul..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_sub3..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f9_mul..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \ka2_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb14_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb15_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb16_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb6_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr14_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr15_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr16_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \u1_r3_761..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_complex_29..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_complex_31..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_29..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_31..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v11_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v12_complex..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v12_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v14_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \v1_complex..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+24.6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \f3_add.
+  Optimizing cells in module \f3_mul.
+  Optimizing cells in module \f3_sub3.
+  Optimizing cells in module \f9_mul.
+  Optimizing cells in module \ka2_real.
+  Optimizing cells in module \sb14_f9.
+  Optimizing cells in module \sb15_f9.
+  Optimizing cells in module \sb16_f9.
+  Optimizing cells in module \sb6_f9.
+  Optimizing cells in module \sbr14_f3.
+  Optimizing cells in module \sbr15_f3.
+  Optimizing cells in module \sbr16_f3.
+  Optimizing cells in module \u1_r3_761.
+  Optimizing cells in module \ub_complex_29.
+  Optimizing cells in module \ub_complex_31.
+  Optimizing cells in module \ub_real_29.
+  Optimizing cells in module \ub_real_31.
+  Optimizing cells in module \ue_v11_real.
+  Optimizing cells in module \ue_v12_complex.
+  Optimizing cells in module \ue_v12_real.
+  Optimizing cells in module \ue_v14_real.
+  Optimizing cells in module \v1_complex.
+Performed a total of 0 changes.
+
+24.6.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 0 cells.
+
+24.6.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+24.6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+
+24.6.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f3_sub3.
+Optimizing module f9_mul.
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.6.9. Finished OPT passes. (There is nothing left to do.)
+
+24.7. Executing FSM pass (extract and optimize FSM).
+
+24.7.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+24.7.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+24.7.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+24.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+
+24.7.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+24.7.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+24.7.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+24.7.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+24.8. Executing OPT pass (performing simple optimizations).
+
+24.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f3_sub3.
+Optimizing module f9_mul.
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 0 cells.
+
+24.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \f3_add..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_mul..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_sub3..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f9_mul..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \ka2_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb14_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb15_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb16_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb6_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr14_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr15_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr16_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \u1_r3_761..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_complex_29..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_complex_31..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_29..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_31..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v11_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v12_complex..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v12_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v14_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \v1_complex..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+24.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \f3_add.
+  Optimizing cells in module \f3_mul.
+  Optimizing cells in module \f3_sub3.
+  Optimizing cells in module \f9_mul.
+  Optimizing cells in module \ka2_real.
+  Optimizing cells in module \sb14_f9.
+  Optimizing cells in module \sb15_f9.
+  Optimizing cells in module \sb16_f9.
+  Optimizing cells in module \sb6_f9.
+  Optimizing cells in module \sbr14_f3.
+  Optimizing cells in module \sbr15_f3.
+  Optimizing cells in module \sbr16_f3.
+  Optimizing cells in module \u1_r3_761.
+  Optimizing cells in module \ub_complex_29.
+  Optimizing cells in module \ub_complex_31.
+  Optimizing cells in module \ub_real_29.
+  Optimizing cells in module \ub_real_31.
+  Optimizing cells in module \ue_v11_real.
+  Optimizing cells in module \ue_v12_complex.
+  Optimizing cells in module \ue_v12_real.
+  Optimizing cells in module \ue_v14_real.
+  Optimizing cells in module \v1_complex.
+Performed a total of 0 changes.
+
+24.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 0 cells.
+
+24.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+24.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+
+24.8.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f3_sub3.
+Optimizing module f9_mul.
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.8.9. Finished OPT passes. (There is nothing left to do.)
+
+24.9. Executing WREDUCE pass (reducing word size of cells).
+Removed top 30 bits (of 32) from port B of cell f3_add.$ge$f3_add.v:3$11 ($ge).
+Removed top 30 bits (of 32) from port B of cell f3_add.$sub$f3_add.v:3$12 ($sub).
+Removed top 28 bits (of 32) from port Y of cell f3_add.$sub$f3_add.v:3$12 ($sub).
+Removed top 30 bits (of 32) from mux cell f3_add.$ternary$f3_add.v:3$14 ($mux).
+Removed top 2 bits (of 4) from port Y of cell f3_add.$sub$f3_add.v:3$12 ($sub).
+Removed top 1 bits (of 3) from port A of cell f3_add.$sub$f3_add.v:3$12 ($sub).
+Removed top 30 bits (of 32) from wire f3_add.$sub$f3_add.v:3$12_Y.
+Removed top 1 bits (of 3) from wire f3_add.sum.
+Removed top 30 bits (of 32) from port B of cell f3_mul.$ge$f3_mul.v:3$6 ($ge).
+Removed top 30 bits (of 32) from port B of cell f3_mul.$sub$f3_mul.v:3$7 ($sub).
+Removed top 27 bits (of 32) from port Y of cell f3_mul.$sub$f3_mul.v:3$7 ($sub).
+Removed top 30 bits (of 32) from mux cell f3_mul.$ternary$f3_mul.v:3$9 ($mux).
+Removed top 3 bits (of 5) from port Y of cell f3_mul.$sub$f3_mul.v:3$7 ($sub).
+Removed top 2 bits (of 4) from port A of cell f3_mul.$sub$f3_mul.v:3$7 ($sub).
+Removed top 30 bits (of 32) from wire f3_mul.$sub$f3_mul.v:3$7_Y.
+Removed top 2 bits (of 4) from wire f3_mul.prod.
+Removed top 30 bits (of 32) from port A of cell f9_mul.$sub$f9_mul.v:8$2 ($sub).
+Removed top 29 bits (of 32) from port Y of cell f9_mul.$sub$f9_mul.v:8$2 ($sub).
+Removed top 30 bits (of 32) from mux cell f9_mul.$ternary$f9_mul.v:8$4 ($mux).
+Removed top 1 bits (of 3) from port Y of cell f9_mul.$sub$f9_mul.v:8$2 ($sub).
+Removed top 30 bits (of 32) from wire f9_mul.$sub$f9_mul.v:8$2_Y.
+
+24.10. Executing PEEPOPT pass (run peephole optimizers).
+
+24.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+Removed 0 unused cells and 6 unused wires.
+<suppressed ~3 debug messages>
+
+24.12. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module f3_add:
+  creating $macc model for $add$f3_add.v:2$10 ($add).
+  creating $macc model for $sub$f3_add.v:3$12 ($sub).
+  creating $alu model for $macc $sub$f3_add.v:3$12.
+  creating $alu model for $macc $add$f3_add.v:2$10.
+  creating $alu model for $ge$f3_add.v:3$11 ($ge): new $alu
+  creating $alu cell for $ge$f3_add.v:3$11: $auto$alumacc.cc:485:replace_alu$24
+  creating $alu cell for $add$f3_add.v:2$10: $auto$alumacc.cc:485:replace_alu$33
+  creating $alu cell for $sub$f3_add.v:3$12: $auto$alumacc.cc:485:replace_alu$36
+  created 3 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module f3_mul:
+  creating $macc model for $mul$f3_mul.v:2$5 ($mul).
+  creating $macc model for $sub$f3_mul.v:3$7 ($sub).
+  creating $alu model for $macc $sub$f3_mul.v:3$7.
+  creating $macc cell for $mul$f3_mul.v:2$5: $auto$alumacc.cc:365:replace_macc$39
+  creating $alu model for $ge$f3_mul.v:3$6 ($ge): new $alu
+  creating $alu cell for $ge$f3_mul.v:3$6: $auto$alumacc.cc:485:replace_alu$41
+  creating $alu cell for $sub$f3_mul.v:3$7: $auto$alumacc.cc:485:replace_alu$50
+  created 2 $alu and 1 $macc cells.
+Extracting $alu and $macc cells in module f3_sub3:
+  creating $macc model for $sub$f3_sub3_0603.v:3$16 ($sub).
+  creating $alu model for $macc $sub$f3_sub3_0603.v:3$16.
+  creating $alu cell for $sub$f3_sub3_0603.v:3$16: $auto$alumacc.cc:485:replace_alu$53
+  created 1 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module f9_mul:
+  creating $macc model for $sub$f9_mul.v:8$2 ($sub).
+  creating $alu model for $macc $sub$f9_mul.v:8$2.
+  creating $alu cell for $sub$f9_mul.v:8$2: $auto$alumacc.cc:485:replace_alu$56
+  created 1 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ka2_real:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module sb14_f9:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module sb15_f9:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module sb16_f9:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module sb6_f9:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module sbr14_f3:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module sbr15_f3:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module sbr16_f3:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module u1_r3_761:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ub_complex_29:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ub_complex_31:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ub_real_29:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ub_real_31:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ue_v11_real:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ue_v12_complex:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ue_v12_real:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ue_v14_real:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module v1_complex:
+  created 0 $alu and 0 $macc cells.
+
+24.13. Executing SHARE pass (SAT-based resource sharing).
+
+24.14. Executing OPT pass (performing simple optimizations).
+
+24.14.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f3_sub3.
+Optimizing module f9_mul.
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.14.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 0 cells.
+
+24.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \f3_add..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_mul..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_sub3..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f9_mul..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \ka2_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb14_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb15_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb16_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb6_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr14_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr15_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr16_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \u1_r3_761..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_complex_29..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_complex_31..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_29..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_31..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v11_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v12_complex..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v12_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v14_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \v1_complex..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+24.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \f3_add.
+  Optimizing cells in module \f3_mul.
+  Optimizing cells in module \f3_sub3.
+  Optimizing cells in module \f9_mul.
+  Optimizing cells in module \ka2_real.
+  Optimizing cells in module \sb14_f9.
+  Optimizing cells in module \sb15_f9.
+  Optimizing cells in module \sb16_f9.
+  Optimizing cells in module \sb6_f9.
+  Optimizing cells in module \sbr14_f3.
+  Optimizing cells in module \sbr15_f3.
+  Optimizing cells in module \sbr16_f3.
+  Optimizing cells in module \u1_r3_761.
+  Optimizing cells in module \ub_complex_29.
+  Optimizing cells in module \ub_complex_31.
+  Optimizing cells in module \ub_real_29.
+  Optimizing cells in module \ub_real_31.
+  Optimizing cells in module \ue_v11_real.
+  Optimizing cells in module \ue_v12_complex.
+  Optimizing cells in module \ue_v12_real.
+  Optimizing cells in module \ue_v14_real.
+  Optimizing cells in module \v1_complex.
+Performed a total of 0 changes.
+
+24.14.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 0 cells.
+
+24.14.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+24.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~2 debug messages>
+
+24.14.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f3_sub3.
+Optimizing module f9_mul.
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.14.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+24.14.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \f3_add..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_mul..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_sub3..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f9_mul..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \ka2_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb14_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb15_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb16_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb6_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr14_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr15_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr16_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \u1_r3_761..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_complex_29..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_complex_31..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_29..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_31..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v11_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v12_complex..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v12_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v14_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \v1_complex..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+24.14.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \f3_add.
+  Optimizing cells in module \f3_mul.
+  Optimizing cells in module \f3_sub3.
+  Optimizing cells in module \f9_mul.
+  Optimizing cells in module \ka2_real.
+  Optimizing cells in module \sb14_f9.
+  Optimizing cells in module \sb15_f9.
+  Optimizing cells in module \sb16_f9.
+  Optimizing cells in module \sb6_f9.
+  Optimizing cells in module \sbr14_f3.
+  Optimizing cells in module \sbr15_f3.
+  Optimizing cells in module \sbr16_f3.
+  Optimizing cells in module \u1_r3_761.
+  Optimizing cells in module \ub_complex_29.
+  Optimizing cells in module \ub_complex_31.
+  Optimizing cells in module \ub_real_29.
+  Optimizing cells in module \ub_real_31.
+  Optimizing cells in module \ue_v11_real.
+  Optimizing cells in module \ue_v12_complex.
+  Optimizing cells in module \ue_v12_real.
+  Optimizing cells in module \ue_v14_real.
+  Optimizing cells in module \v1_complex.
+Performed a total of 0 changes.
+
+24.14.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 0 cells.
+
+24.14.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+24.14.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+
+24.14.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f3_sub3.
+Optimizing module f9_mul.
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.14.16. Finished OPT passes. (There is nothing left to do.)
+
+24.15. Executing MEMORY pass.
+
+24.15.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+24.15.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+24.15.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+24.15.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+24.15.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+24.15.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+
+24.15.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+24.15.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+24.15.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+
+24.15.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+24.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+
+24.17. Executing OPT pass (performing simple optimizations).
+
+24.17.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+<suppressed ~1 debug messages>
+Optimizing module f3_mul.
+<suppressed ~1 debug messages>
+Optimizing module f3_sub3.
+<suppressed ~4 debug messages>
+Optimizing module f9_mul.
+<suppressed ~4 debug messages>
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.17.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 0 cells.
+
+24.17.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+24.17.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+Removed 4 unused cells and 12 unused wires.
+<suppressed ~8 debug messages>
+
+24.17.5. Finished fast OPT passes.
+
+24.18. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+24.19. Executing OPT pass (performing simple optimizations).
+
+24.19.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f3_sub3.
+Optimizing module f9_mul.
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.19.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 0 cells.
+
+24.19.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \f3_add..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_mul..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_sub3..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f9_mul..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \ka2_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb14_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb15_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb16_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sb6_f9..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr14_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr15_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr16_f3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \u1_r3_761..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_complex_29..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_complex_31..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_29..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_31..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v11_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v12_complex..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v12_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ue_v14_real..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \v1_complex..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+24.19.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \f3_add.
+  Optimizing cells in module \f3_mul.
+  Optimizing cells in module \f3_sub3.
+  Optimizing cells in module \f9_mul.
+  Optimizing cells in module \ka2_real.
+  Optimizing cells in module \sb14_f9.
+  Optimizing cells in module \sb15_f9.
+  Optimizing cells in module \sb16_f9.
+  Optimizing cells in module \sb6_f9.
+  Optimizing cells in module \sbr14_f3.
+  Optimizing cells in module \sbr15_f3.
+  Optimizing cells in module \sbr16_f3.
+  Optimizing cells in module \u1_r3_761.
+  Optimizing cells in module \ub_complex_29.
+  Optimizing cells in module \ub_complex_31.
+  Optimizing cells in module \ub_real_29.
+  Optimizing cells in module \ub_real_31.
+  Optimizing cells in module \ue_v11_real.
+  Optimizing cells in module \ue_v12_complex.
+  Optimizing cells in module \ue_v12_real.
+  Optimizing cells in module \ue_v14_real.
+  Optimizing cells in module \v1_complex.
+Performed a total of 0 changes.
+
+24.19.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 0 cells.
+
+24.19.6. Executing OPT_SHARE pass.
+
+24.19.7. Executing OPT_DFF pass (perform DFF optimizations).
+
+24.19.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+
+24.19.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f3_sub3.
+Optimizing module f9_mul.
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.19.10. Finished OPT passes. (There is nothing left to do.)
+
+24.20. Executing TECHMAP pass (map to technology primitives).
+
+24.20.1. Executing Verilog-2005 frontend: /usr/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/usr/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Successfully finished Verilog frontend.
+
+24.20.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $not.
+Using extmapper simplemap for cells of type $logic_not.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $reduce_or.
+Using extmapper simplemap for cells of type $reduce_and.
+Using template $paramod$d1615bf4e5e328245ffd1550e5fe105901cda77b\_90_alu for cells of type $alu.
+Using template $paramod$7e708ae28ab761f11d0fb59d3ffc72f6a4baf5d9\_90_alu for cells of type $alu.
+Using extmapper maccmap for cells of type $macc.
+  add \a * \b (2x2 bits, unsigned)
+Using extmapper simplemap for cells of type $and.
+Using template $paramod$740b056ede97228d3eae64ea2fdc81f0a33e0fe7\_90_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $pos.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000000010 for cells of type $lcu.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper simplemap for cells of type $or.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000000100 for cells of type $lcu.
+Using template $paramod$649fc39eef2451024566705288528c8671211199\_90_alu for cells of type $alu.
+Using template $paramod$adbaf76fa5a3091a329503792521395f8ff4d1a4\_90_alu for cells of type $alu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000000001 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000000011 for cells of type $lcu.
+No more expansions possible.
+<suppressed ~702 debug messages>
+
+24.21. Executing OPT pass (performing simple optimizations).
+
+24.21.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+<suppressed ~35 debug messages>
+Optimizing module f3_mul.
+<suppressed ~55 debug messages>
+Optimizing module f3_sub3.
+<suppressed ~2 debug messages>
+Optimizing module f9_mul.
+<suppressed ~2 debug messages>
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.21.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+<suppressed ~9 debug messages>
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 3 cells.
+
+24.21.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+24.21.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+Removed 7 unused cells and 184 unused wires.
+<suppressed ~11 debug messages>
+
+24.21.5. Finished fast OPT passes.
+
+24.22. Executing ABC pass (technology mapping using ABC).
+
+24.22.1. Extracting gate netlist of module `\f3_add' to `<abc-temp-dir>/input.blif'..
+Extracted 15 gates and 19 wires to a netlist network with 4 inputs and 2 outputs.
+
+24.22.1.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 13 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+24.22.1.2. Re-integrating ABC results.
+ABC RESULTS:              NAND cells:        1
+ABC RESULTS:              XNOR cells:        2
+ABC RESULTS:               AND cells:        1
+ABC RESULTS:            ANDNOT cells:        5
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:               XOR cells:        3
+ABC RESULTS:               MUX cells:        1
+ABC RESULTS:        internal signals:       13
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+24.22.2. Extracting gate netlist of module `\f3_mul' to `<abc-temp-dir>/input.blif'..
+Extracted 19 gates and 23 wires to a netlist network with 4 inputs and 2 outputs.
+
+24.22.2.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 13 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+24.22.2.2. Re-integrating ABC results.
+ABC RESULTS:              NAND cells:        3
+ABC RESULTS:               AND cells:        1
+ABC RESULTS:            ANDNOT cells:        4
+ABC RESULTS:               XOR cells:        1
+ABC RESULTS:              XNOR cells:        2
+ABC RESULTS:               MUX cells:        1
+ABC RESULTS:        internal signals:       17
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+24.22.3. Extracting gate netlist of module `\f3_sub3' to `<abc-temp-dir>/input.blif'..
+Extracted 5 gates and 8 wires to a netlist network with 2 inputs and 2 outputs.
+
+24.22.3.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 13 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+24.22.3.2. Re-integrating ABC results.
+ABC RESULTS:            ANDNOT cells:        2
+ABC RESULTS:        internal signals:        4
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+24.22.4. Extracting gate netlist of module `\f9_mul' to `<abc-temp-dir>/input.blif'..
+Extracted 5 gates and 8 wires to a netlist network with 2 inputs and 2 outputs.
+
+24.22.4.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 13 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+24.22.4.2. Re-integrating ABC results.
+ABC RESULTS:            ANDNOT cells:        2
+ABC RESULTS:        internal signals:        4
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+24.22.5. Extracting gate netlist of module `\ka2_real' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.6. Extracting gate netlist of module `\sb14_f9' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.7. Extracting gate netlist of module `\sb15_f9' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.8. Extracting gate netlist of module `\sb16_f9' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.9. Extracting gate netlist of module `\sb6_f9' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.10. Extracting gate netlist of module `\sbr14_f3' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.11. Extracting gate netlist of module `\sbr15_f3' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.12. Extracting gate netlist of module `\sbr16_f3' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.13. Extracting gate netlist of module `\u1_r3_761' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.14. Extracting gate netlist of module `\ub_complex_29' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.15. Extracting gate netlist of module `\ub_complex_31' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.16. Extracting gate netlist of module `\ub_real_29' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.17. Extracting gate netlist of module `\ub_real_31' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.18. Extracting gate netlist of module `\ue_v11_real' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.19. Extracting gate netlist of module `\ue_v12_complex' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.20. Extracting gate netlist of module `\ue_v12_real' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.21. Extracting gate netlist of module `\ue_v14_real' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.22.22. Extracting gate netlist of module `\v1_complex' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+24.23. Executing OPT pass (performing simple optimizations).
+
+24.23.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_add.
+Optimizing module f3_mul.
+Optimizing module f3_sub3.
+Optimizing module f9_mul.
+Optimizing module ka2_real.
+Optimizing module sb14_f9.
+Optimizing module sb15_f9.
+Optimizing module sb16_f9.
+Optimizing module sb6_f9.
+Optimizing module sbr14_f3.
+Optimizing module sbr15_f3.
+Optimizing module sbr16_f3.
+Optimizing module u1_r3_761.
+Optimizing module ub_complex_29.
+Optimizing module ub_complex_31.
+Optimizing module ub_real_29.
+Optimizing module ub_real_31.
+Optimizing module ue_v11_real.
+Optimizing module ue_v12_complex.
+Optimizing module ue_v12_real.
+Optimizing module ue_v14_real.
+Optimizing module v1_complex.
+
+24.23.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\f3_add'.
+Finding identical cells in module `\f3_mul'.
+Finding identical cells in module `\f3_sub3'.
+Finding identical cells in module `\f9_mul'.
+Finding identical cells in module `\ka2_real'.
+Finding identical cells in module `\sb14_f9'.
+Finding identical cells in module `\sb15_f9'.
+Finding identical cells in module `\sb16_f9'.
+Finding identical cells in module `\sb6_f9'.
+Finding identical cells in module `\sbr14_f3'.
+Finding identical cells in module `\sbr15_f3'.
+Finding identical cells in module `\sbr16_f3'.
+Finding identical cells in module `\u1_r3_761'.
+Finding identical cells in module `\ub_complex_29'.
+Finding identical cells in module `\ub_complex_31'.
+Finding identical cells in module `\ub_real_29'.
+Finding identical cells in module `\ub_real_31'.
+Finding identical cells in module `\ue_v11_real'.
+Finding identical cells in module `\ue_v12_complex'.
+Finding identical cells in module `\ue_v12_real'.
+Finding identical cells in module `\ue_v14_real'.
+Finding identical cells in module `\v1_complex'.
+Removed a total of 0 cells.
+
+24.23.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+24.23.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_add..
+Finding unused cells or wires in module \f3_mul..
+Finding unused cells or wires in module \f3_sub3..
+Finding unused cells or wires in module \f9_mul..
+Finding unused cells or wires in module \ka2_real..
+Finding unused cells or wires in module \sb14_f9..
+Finding unused cells or wires in module \sb15_f9..
+Finding unused cells or wires in module \sb16_f9..
+Finding unused cells or wires in module \sb6_f9..
+Finding unused cells or wires in module \sbr14_f3..
+Finding unused cells or wires in module \sbr15_f3..
+Finding unused cells or wires in module \sbr16_f3..
+Finding unused cells or wires in module \u1_r3_761..
+Finding unused cells or wires in module \ub_complex_29..
+Finding unused cells or wires in module \ub_complex_31..
+Finding unused cells or wires in module \ub_real_29..
+Finding unused cells or wires in module \ub_real_31..
+Finding unused cells or wires in module \ue_v11_real..
+Finding unused cells or wires in module \ue_v12_complex..
+Finding unused cells or wires in module \ue_v12_real..
+Finding unused cells or wires in module \ue_v14_real..
+Finding unused cells or wires in module \v1_complex..
+Removed 0 unused cells and 49 unused wires.
+<suppressed ~6 debug messages>
+
+24.23.5. Finished fast OPT passes.
+
+24.24. Executing HIERARCHY pass (managing design hierarchy).
+
+24.24.1. Analyzing design hierarchy..
+Top module:  \u1_r3_761
+Used module:     \f3_add
+Used module:     \ue_v14_real
+Used module:         \f3_sub3
+Used module:         \ue_v12_real
+Used module:             \ub_real_31
+Used module:                 \sbr16_f3
+Used module:                     \f3_mul
+Used module:                 \sbr15_f3
+Used module:             \ub_complex_31
+Used module:                 \sb16_f9
+Used module:                     \f9_mul
+Used module:                 \sb15_f9
+Used module:             \ub_real_29
+Used module:                 \sbr14_f3
+Used module:         \ue_v12_complex
+Used module:             \ub_complex_29
+Used module:                 \sb14_f9
+Used module:         \ue_v11_real
+Used module:             \ka2_real
+Used module:             \v1_complex
+Used module:                 \sb6_f9
+
+24.24.2. Analyzing design hierarchy..
+Top module:  \u1_r3_761
+Used module:     \f3_add
+Used module:     \ue_v14_real
+Used module:         \f3_sub3
+Used module:         \ue_v12_real
+Used module:             \ub_real_31
+Used module:                 \sbr16_f3
+Used module:                     \f3_mul
+Used module:                 \sbr15_f3
+Used module:             \ub_complex_31
+Used module:                 \sb16_f9
+Used module:                     \f9_mul
+Used module:                 \sb15_f9
+Used module:             \ub_real_29
+Used module:                 \sbr14_f3
+Used module:         \ue_v12_complex
+Used module:             \ub_complex_29
+Used module:                 \sb14_f9
+Used module:         \ue_v11_real
+Used module:             \ka2_real
+Used module:             \v1_complex
+Used module:                 \sb6_f9
+Removed 0 unused modules.
+
+24.25. Printing statistics.
+
+=== f3_add ===
+
+   Number of wires:                 15
+   Number of wire bits:             18
+   Number of public wires:           3
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 14
+     $_ANDNOT_                       5
+     $_AND_                          1
+     $_MUX_                          1
+     $_NAND_                         1
+     $_NOT_                          1
+     $_XNOR_                         2
+     $_XOR_                          3
+
+=== f3_mul ===
+
+   Number of wires:                 13
+   Number of wire bits:             16
+   Number of public wires:           3
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 12
+     $_ANDNOT_                       4
+     $_AND_                          1
+     $_MUX_                          1
+     $_NAND_                         3
+     $_XNOR_                         2
+     $_XOR_                          1
+
+=== f3_sub3 ===
+
+   Number of wires:                  4
+   Number of wire bits:              8
+   Number of public wires:           4
+   Number of public wire bits:       8
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     $_ANDNOT_                       2
+     f3_add                          1
+
+=== f9_mul ===
+
+   Number of wires:                 11
+   Number of wire bits:             22
+   Number of public wires:          11
+   Number of public wire bits:      22
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  8
+     $_ANDNOT_                       2
+     f3_add                          2
+     f3_mul                          4
+
+=== ka2_real ===
+
+   Number of wires:                196
+   Number of wire bits:            792
+   Number of public wires:         196
+   Number of public wire bits:     792
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                134
+     f3_add                         73
+     f3_sub3                        58
+     sbr15_f3                        3
+
+=== sb14_f9 ===
+
+   Number of wires:                796
+   Number of wire bits:           1800
+   Number of public wires:         796
+   Number of public wire bits:    1800
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                534
+     f3_add                        338
+     f9_mul                        196
+
+=== sb15_f9 ===
+
+   Number of wires:                912
+   Number of wire bits:           2048
+   Number of public wires:         912
+   Number of public wire bits:    2048
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                617
+     f3_add                        392
+     f9_mul                        225
+
+=== sb16_f9 ===
+
+   Number of wires:               1036
+   Number of wire bits:           2312
+   Number of public wires:        1036
+   Number of public wire bits:    2312
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                706
+     f3_add                        450
+     f9_mul                        256
+
+=== sb6_f9 ===
+
+   Number of wires:                156
+   Number of wire bits:            392
+   Number of public wires:         156
+   Number of public wire bits:     392
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 86
+     f3_add                         50
+     f9_mul                         36
+
+=== sbr14_f3 ===
+
+   Number of wires:                398
+   Number of wire bits:            900
+   Number of public wires:         398
+   Number of public wire bits:     900
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                365
+     f3_add                        169
+     f3_mul                        196
+
+=== sbr15_f3 ===
+
+   Number of wires:                456
+   Number of wire bits:           1024
+   Number of public wires:         456
+   Number of public wire bits:    1024
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                421
+     f3_add                        196
+     f3_mul                        225
+
+=== sbr16_f3 ===
+
+   Number of wires:                518
+   Number of wire bits:           1156
+   Number of public wires:         518
+   Number of public wire bits:    1156
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                481
+     f3_add                        225
+     f3_mul                        256
+
+=== u1_r3_761 ===
+
+   Number of wires:               1524
+   Number of wire bits:          10648
+   Number of public wires:        1524
+   Number of public wire bits:   10648
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1521
+     f3_add                       1520
+     ue_v14_real                     1
+
+=== ub_complex_29 ===
+
+   Number of wires:                396
+   Number of wire bits:           1896
+   Number of public wires:         396
+   Number of public wire bits:    1896
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                257
+     f3_add                        142
+     f3_sub3                       112
+     sb14_f9                         1
+     sb15_f9                         2
+
+=== ub_complex_31 ===
+
+   Number of wires:                422
+   Number of wire bits:           2028
+   Number of public wires:         422
+   Number of public wire bits:    2028
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                275
+     f3_add                        152
+     f3_sub3                       120
+     sb15_f9                         1
+     sb16_f9                         2
+
+=== ub_real_29 ===
+
+   Number of wires:                198
+   Number of wire bits:            948
+   Number of public wires:         198
+   Number of public wire bits:     948
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                130
+     f3_add                         71
+     f3_sub3                        56
+     sbr14_f3                        1
+     sbr15_f3                        2
+
+=== ub_real_31 ===
+
+   Number of wires:                211
+   Number of wire bits:           1014
+   Number of public wires:         211
+   Number of public wire bits:    1014
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                139
+     f3_add                         76
+     f3_sub3                        60
+     sbr15_f3                        1
+     sbr16_f3                        2
+
+=== ue_v11_real ===
+
+   Number of wires:               3218
+   Number of wire bits:           8660
+   Number of public wires:        3218
+   Number of public wire bits:    8660
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3147
+     f3_add                       1594
+     f3_sub3                      1547
+     ka2_real                        2
+     ub_real_29                      1
+     v1_complex                      3
+
+=== ue_v12_complex ===
+
+   Number of wires:               6388
+   Number of wire bits:          17352
+   Number of public wires:        6388
+   Number of public wire bits:   17352
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               6243
+     f3_add                       3050
+     f3_sub3                      3184
+     ub_complex_29                   1
+     ub_complex_31                   8
+
+=== ue_v12_real ===
+
+   Number of wires:               3314
+   Number of wire bits:           8916
+   Number of public wires:        3314
+   Number of public wire bits:    8916
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3243
+     f3_add                       1642
+     f3_sub3                      1595
+     ub_complex_31                   3
+     ub_real_29                      1
+     ub_real_31                      2
+
+=== ue_v14_real ===
+
+   Number of wires:              16466
+   Number of wire bits:          44468
+   Number of public wires:       16466
+   Number of public wire bits:   44468
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              16155
+     f3_add                       8218
+     f3_sub3                      7931
+     ue_v11_real                     1
+     ue_v12_complex                  3
+     ue_v12_real                     2
+
+=== v1_complex ===
+
+   Number of wires:               1212
+   Number of wire bits:           3248
+   Number of public wires:        1212
+   Number of public wire bits:    3248
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1159
+     f3_add                        558
+     f3_sub3                       592
+     sb6_f9                          9
+
+=== design hierarchy ===
+
+   u1_r3_761                         1
+     f3_add                       1520
+     ue_v14_real                     1
+       f3_add                     8218
+       f3_sub3                    7931
+         f3_add                      1
+       ue_v11_real                   1
+         f3_add                   1594
+         f3_sub3                  1547
+           f3_add                    1
+         ka2_real                    2
+           f3_add                   73
+           f3_sub3                  58
+             f3_add                  1
+           sbr15_f3                  3
+             f3_add                196
+             f3_mul                225
+         ub_real_29                  1
+           f3_add                   71
+           f3_sub3                  56
+             f3_add                  1
+           sbr14_f3                  1
+             f3_add                169
+             f3_mul                196
+           sbr15_f3                  2
+             f3_add                196
+             f3_mul                225
+         v1_complex                  3
+           f3_add                  558
+           f3_sub3                 592
+             f3_add                  1
+           sb6_f9                    9
+             f3_add                 50
+             f9_mul                 36
+               f3_add                2
+               f3_mul                4
+       ue_v12_complex                3
+         f3_add                   3050
+         f3_sub3                  3184
+           f3_add                    1
+         ub_complex_29               1
+           f3_add                  142
+           f3_sub3                 112
+             f3_add                  1
+           sb14_f9                   1
+             f3_add                338
+             f9_mul                196
+               f3_add                2
+               f3_mul                4
+           sb15_f9                   2
+             f3_add                392
+             f9_mul                225
+               f3_add                2
+               f3_mul                4
+         ub_complex_31               8
+           f3_add                  152
+           f3_sub3                 120
+             f3_add                  1
+           sb15_f9                   1
+             f3_add                392
+             f9_mul                225
+               f3_add                2
+               f3_mul                4
+           sb16_f9                   2
+             f3_add                450
+             f9_mul                256
+               f3_add                2
+               f3_mul                4
+       ue_v12_real                   2
+         f3_add                   1642
+         f3_sub3                  1595
+           f3_add                    1
+         ub_complex_31               3
+           f3_add                  152
+           f3_sub3                 120
+             f3_add                  1
+           sb15_f9                   1
+             f3_add                392
+             f9_mul                225
+               f3_add                2
+               f3_mul                4
+           sb16_f9                   2
+             f3_add                450
+             f9_mul                256
+               f3_add                2
+               f3_mul                4
+         ub_real_29                  1
+           f3_add                   71
+           f3_sub3                  56
+             f3_add                  1
+           sbr14_f3                  1
+             f3_add                169
+             f3_mul                196
+           sbr15_f3                  2
+             f3_add                196
+             f3_mul                225
+         ub_real_31                  2
+           f3_add                   76
+           f3_sub3                  60
+             f3_add                  1
+           sbr15_f3                  1
+             f3_add                196
+             f3_mul                225
+           sbr16_f3                  2
+             f3_add                225
+             f3_mul                256
+
+   Number of wires:             4329252
+   Number of wire bits:         5807400
+   Number of public wires:      1364044
+   Number of public wire bits:  2842192
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             3601800
+     $_ANDNOT_                  1324736
+     $_AND_                     264820
+     $_MUX_                     264820
+     $_NAND_                    477452
+     $_NOT_                     158504
+     $_XNOR_                    529640
+     $_XOR_                     581828
+
+24.26. Executing CHECK pass (checking for obvious problems).
+Checking module f3_add...
+Checking module f3_mul...
+Checking module f3_sub3...
+Checking module f9_mul...
+Checking module ka2_real...
+Checking module sb14_f9...
+Checking module sb15_f9...
+Checking module sb16_f9...
+Checking module sb6_f9...
+Checking module sbr14_f3...
+Checking module sbr15_f3...
+Checking module sbr16_f3...
+Checking module u1_r3_761...
+Checking module ub_complex_29...
+Checking module ub_complex_31...
+Checking module ub_real_29...
+Checking module ub_real_31...
+Checking module ue_v11_real...
+Checking module ue_v12_complex...
+Checking module ue_v12_real...
+Checking module ue_v14_real...
+Checking module v1_complex...
+Found and reported 0 problems.
+
+25. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+  cell DFF_X1 (noninv, pins=4, area=4.52) is a direct match for cell type $_DFF_P_.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+  cell DFFR_X1 (noninv, pins=5, area=5.32) is a direct match for cell type $_DFF_PN0_.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+  cell DFFS_X1 (noninv, pins=5, area=5.32) is a direct match for cell type $_DFF_PN1_.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+  cell DFFRS_X1 (noninv, pins=6, area=6.38) is a direct match for cell type $_DFFSR_PNN_.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFRS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFR_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFFS_X2' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X1' - skipping.
+Warning: Found unsupported expression 'SE*SI+D*!SE' in pin attribute of cell 'SDFF_X2' - skipping.
+  final dff cell mappings:
+    unmapped dff cell: $_DFF_N_
+    \DFF_X1 _DFF_P_ (.CK( C), .D( D), .Q( Q), .QN(~Q));
+    unmapped dff cell: $_DFF_NN0_
+    unmapped dff cell: $_DFF_NN1_
+    unmapped dff cell: $_DFF_NP0_
+    unmapped dff cell: $_DFF_NP1_
+    \DFFR_X1 _DFF_PN0_ (.CK( C), .D( D), .Q( Q), .QN(~Q), .RN( R));
+    \DFFS_X1 _DFF_PN1_ (.CK( C), .D( D), .Q( Q), .QN(~Q), .SN( R));
+    unmapped dff cell: $_DFF_PP0_
+    unmapped dff cell: $_DFF_PP1_
+    unmapped dff cell: $_DFFSR_NNN_
+    unmapped dff cell: $_DFFSR_NNP_
+    unmapped dff cell: $_DFFSR_NPN_
+    unmapped dff cell: $_DFFSR_NPP_
+    \DFFRS_X1 _DFFSR_PNN_ (.CK( C), .D( D), .Q( Q), .QN(~Q), .RN( R), .SN( S));
+    unmapped dff cell: $_DFFSR_PNP_
+    unmapped dff cell: $_DFFSR_PPN_
+    unmapped dff cell: $_DFFSR_PPP_
+
+25.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+Mapping DFF cells in module `\f3_add':
+Mapping DFF cells in module `\f3_mul':
+Mapping DFF cells in module `\f3_sub3':
+Mapping DFF cells in module `\f9_mul':
+Mapping DFF cells in module `\ka2_real':
+Mapping DFF cells in module `\sb14_f9':
+Mapping DFF cells in module `\sb15_f9':
+Mapping DFF cells in module `\sb16_f9':
+Mapping DFF cells in module `\sb6_f9':
+Mapping DFF cells in module `\sbr14_f3':
+Mapping DFF cells in module `\sbr15_f3':
+Mapping DFF cells in module `\sbr16_f3':
+Mapping DFF cells in module `\u1_r3_761':
+Mapping DFF cells in module `\ub_complex_29':
+Mapping DFF cells in module `\ub_complex_31':
+Mapping DFF cells in module `\ub_real_29':
+Mapping DFF cells in module `\ub_real_31':
+Mapping DFF cells in module `\ue_v11_real':
+Mapping DFF cells in module `\ue_v12_complex':
+Mapping DFF cells in module `\ue_v12_real':
+Mapping DFF cells in module `\ue_v14_real':
+Mapping DFF cells in module `\v1_complex':
+
+26. Executing ABC pass (technology mapping using ABC).
+
+26.1. Extracting gate netlist of module `\f3_add' to `<abc-temp-dir>/input.blif'..
+Extracted 14 gates and 18 wires to a netlist network with 4 inputs and 2 outputs.
+
+26.1.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /path/asic_work/nangate45.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.04 sec
+ABC: Scl_LibertyReadGenlib() skipped cell "ANTENNA_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X2".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X2" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X4" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X8" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X16" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X32" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC0_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC1_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X8".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X16".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINV_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "TLAT_X1".
+ABC: Library "NangateOpenCellLibrary" from "/path/asic_work/nangate45.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.06 sec
+ABC: Memory =   11.38 MB. Time =     0.06 sec
+ABC: Warning: Detected 2 multi-output gates (for example, "FA_X1").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+26.1.2. Re-integrating ABC results.
+ABC RESULTS:          OAI22_X1 cells:        1
+ABC RESULTS:          NAND2_X1 cells:        4
+ABC RESULTS:          XNOR2_X1 cells:        4
+ABC RESULTS:        internal signals:       12
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+26.2. Extracting gate netlist of module `\f3_mul' to `<abc-temp-dir>/input.blif'..
+Extracted 12 gates and 16 wires to a netlist network with 4 inputs and 2 outputs.
+
+26.2.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /path/asic_work/nangate45.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.04 sec
+ABC: Scl_LibertyReadGenlib() skipped cell "ANTENNA_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X2".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X2" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X4" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X8" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X16" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X32" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC0_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC1_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X8".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X16".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINV_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "TLAT_X1".
+ABC: Library "NangateOpenCellLibrary" from "/path/asic_work/nangate45.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.06 sec
+ABC: Memory =   11.38 MB. Time =     0.06 sec
+ABC: Warning: Detected 2 multi-output gates (for example, "FA_X1").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+26.2.2. Re-integrating ABC results.
+ABC RESULTS:          AOI22_X1 cells:        1
+ABC RESULTS:          NAND3_X1 cells:        1
+ABC RESULTS:          AOI21_X1 cells:        1
+ABC RESULTS:          NAND4_X1 cells:        1
+ABC RESULTS:          NAND2_X1 cells:        3
+ABC RESULTS:           NOR2_X1 cells:        1
+ABC RESULTS:        internal signals:       10
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+26.3. Extracting gate netlist of module `\f3_sub3' to `<abc-temp-dir>/input.blif'..
+Extracted 2 gates and 4 wires to a netlist network with 2 inputs and 2 outputs.
+
+26.3.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /path/asic_work/nangate45.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.04 sec
+ABC: Scl_LibertyReadGenlib() skipped cell "ANTENNA_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X2".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X2" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X4" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X8" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X16" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X32" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC0_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC1_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X8".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X16".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINV_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "TLAT_X1".
+ABC: Library "NangateOpenCellLibrary" from "/path/asic_work/nangate45.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.06 sec
+ABC: Memory =   11.38 MB. Time =     0.06 sec
+ABC: Warning: Detected 2 multi-output gates (for example, "FA_X1").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+26.3.2. Re-integrating ABC results.
+ABC RESULTS:            INV_X1 cells:        1
+ABC RESULTS:           NOR2_X1 cells:        1
+ABC RESULTS:           AND2_X1 cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+26.4. Extracting gate netlist of module `\f9_mul' to `<abc-temp-dir>/input.blif'..
+Extracted 2 gates and 4 wires to a netlist network with 2 inputs and 2 outputs.
+
+26.4.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /path/asic_work/nangate45.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.04 sec
+ABC: Scl_LibertyReadGenlib() skipped cell "ANTENNA_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X2".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X2" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X4" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X8" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X16" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X32" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC0_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC1_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X8".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X16".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINV_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "TLAT_X1".
+ABC: Library "NangateOpenCellLibrary" from "/path/asic_work/nangate45.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.06 sec
+ABC: Memory =   11.38 MB. Time =     0.06 sec
+ABC: Warning: Detected 2 multi-output gates (for example, "FA_X1").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+26.4.2. Re-integrating ABC results.
+ABC RESULTS:            INV_X1 cells:        1
+ABC RESULTS:           NOR2_X1 cells:        1
+ABC RESULTS:           AND2_X1 cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+26.5. Extracting gate netlist of module `\ka2_real' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.6. Extracting gate netlist of module `\sb14_f9' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.7. Extracting gate netlist of module `\sb15_f9' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.8. Extracting gate netlist of module `\sb16_f9' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.9. Extracting gate netlist of module `\sb6_f9' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.10. Extracting gate netlist of module `\sbr14_f3' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.11. Extracting gate netlist of module `\sbr15_f3' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.12. Extracting gate netlist of module `\sbr16_f3' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.13. Extracting gate netlist of module `\u1_r3_761' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.14. Extracting gate netlist of module `\ub_complex_29' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.15. Extracting gate netlist of module `\ub_complex_31' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.16. Extracting gate netlist of module `\ub_real_29' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.17. Extracting gate netlist of module `\ub_real_31' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.18. Extracting gate netlist of module `\ue_v11_real' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.19. Extracting gate netlist of module `\ue_v12_complex' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.20. Extracting gate netlist of module `\ue_v12_real' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.21. Extracting gate netlist of module `\ue_v14_real' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+26.22. Extracting gate netlist of module `\v1_complex' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+27. Printing statistics.
+
+=== f3_add ===
+
+   Number of wires:                 28
+   Number of wire bits:             31
+   Number of public wires:           3
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  9
+     NAND2_X1                        4
+     OAI22_X1                        1
+     XNOR2_X1                        4
+
+   Chip area for module '\f3_add': 10.906000
+
+=== f3_mul ===
+
+   Number of wires:                 25
+   Number of wire bits:             28
+   Number of public wires:           3
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  8
+     AOI21_X1                        1
+     AOI22_X1                        1
+     NAND2_X1                        3
+     NAND3_X1                        1
+     NAND4_X1                        1
+     NOR2_X1                         1
+
+   Chip area for module '\f3_mul': 7.980000
+
+=== f3_sub3 ===
+
+   Number of wires:                  9
+   Number of wire bits:             13
+   Number of public wires:           4
+   Number of public wire bits:       8
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  4
+     AND2_X1                         1
+     INV_X1                          1
+     NOR2_X1                         1
+     f3_add                          1
+
+   Area for cell type \f3_add is unknown!
+
+   Chip area for module '\f3_sub3': 2.394000
+
+=== f9_mul ===
+
+   Number of wires:                 16
+   Number of wire bits:             27
+   Number of public wires:          11
+   Number of public wire bits:      22
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  9
+     AND2_X1                         1
+     INV_X1                          1
+     NOR2_X1                         1
+     f3_add                          2
+     f3_mul                          4
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_mul is unknown!
+
+   Chip area for module '\f9_mul': 2.394000
+
+=== ka2_real ===
+
+   Number of wires:                196
+   Number of wire bits:            792
+   Number of public wires:         196
+   Number of public wire bits:     792
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                134
+     f3_add                         73
+     f3_sub3                        58
+     sbr15_f3                        3
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_sub3 is unknown!
+   Area for cell type \sbr15_f3 is unknown!
+
+=== sb14_f9 ===
+
+   Number of wires:                796
+   Number of wire bits:           1800
+   Number of public wires:         796
+   Number of public wire bits:    1800
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                534
+     f3_add                        338
+     f9_mul                        196
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f9_mul is unknown!
+
+=== sb15_f9 ===
+
+   Number of wires:                912
+   Number of wire bits:           2048
+   Number of public wires:         912
+   Number of public wire bits:    2048
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                617
+     f3_add                        392
+     f9_mul                        225
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f9_mul is unknown!
+
+=== sb16_f9 ===
+
+   Number of wires:               1036
+   Number of wire bits:           2312
+   Number of public wires:        1036
+   Number of public wire bits:    2312
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                706
+     f3_add                        450
+     f9_mul                        256
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f9_mul is unknown!
+
+=== sb6_f9 ===
+
+   Number of wires:                156
+   Number of wire bits:            392
+   Number of public wires:         156
+   Number of public wire bits:     392
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 86
+     f3_add                         50
+     f9_mul                         36
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f9_mul is unknown!
+
+=== sbr14_f3 ===
+
+   Number of wires:                398
+   Number of wire bits:            900
+   Number of public wires:         398
+   Number of public wire bits:     900
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                365
+     f3_add                        169
+     f3_mul                        196
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_mul is unknown!
+
+=== sbr15_f3 ===
+
+   Number of wires:                456
+   Number of wire bits:           1024
+   Number of public wires:         456
+   Number of public wire bits:    1024
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                421
+     f3_add                        196
+     f3_mul                        225
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_mul is unknown!
+
+=== sbr16_f3 ===
+
+   Number of wires:                518
+   Number of wire bits:           1156
+   Number of public wires:         518
+   Number of public wire bits:    1156
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                481
+     f3_add                        225
+     f3_mul                        256
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_mul is unknown!
+
+=== u1_r3_761 ===
+
+   Number of wires:               1524
+   Number of wire bits:          10648
+   Number of public wires:        1524
+   Number of public wire bits:   10648
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1521
+     f3_add                       1520
+     ue_v14_real                     1
+
+   Area for cell type \ue_v14_real is unknown!
+   Area for cell type \f3_add is unknown!
+
+=== ub_complex_29 ===
+
+   Number of wires:                396
+   Number of wire bits:           1896
+   Number of public wires:         396
+   Number of public wire bits:    1896
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                257
+     f3_add                        142
+     f3_sub3                       112
+     sb14_f9                         1
+     sb15_f9                         2
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_sub3 is unknown!
+   Area for cell type \sb15_f9 is unknown!
+   Area for cell type \sb14_f9 is unknown!
+
+=== ub_complex_31 ===
+
+   Number of wires:                422
+   Number of wire bits:           2028
+   Number of public wires:         422
+   Number of public wire bits:    2028
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                275
+     f3_add                        152
+     f3_sub3                       120
+     sb15_f9                         1
+     sb16_f9                         2
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_sub3 is unknown!
+   Area for cell type \sb16_f9 is unknown!
+   Area for cell type \sb15_f9 is unknown!
+
+=== ub_real_29 ===
+
+   Number of wires:                198
+   Number of wire bits:            948
+   Number of public wires:         198
+   Number of public wire bits:     948
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                130
+     f3_add                         71
+     f3_sub3                        56
+     sbr14_f3                        1
+     sbr15_f3                        2
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_sub3 is unknown!
+   Area for cell type \sbr15_f3 is unknown!
+   Area for cell type \sbr14_f3 is unknown!
+
+=== ub_real_31 ===
+
+   Number of wires:                211
+   Number of wire bits:           1014
+   Number of public wires:         211
+   Number of public wire bits:    1014
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                139
+     f3_add                         76
+     f3_sub3                        60
+     sbr15_f3                        1
+     sbr16_f3                        2
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_sub3 is unknown!
+   Area for cell type \sbr16_f3 is unknown!
+   Area for cell type \sbr15_f3 is unknown!
+
+=== ue_v11_real ===
+
+   Number of wires:               3218
+   Number of wire bits:           8660
+   Number of public wires:        3218
+   Number of public wire bits:    8660
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3147
+     f3_add                       1594
+     f3_sub3                      1547
+     ka2_real                        2
+     ub_real_29                      1
+     v1_complex                      3
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_sub3 is unknown!
+   Area for cell type \ub_real_29 is unknown!
+   Area for cell type \ka2_real is unknown!
+   Area for cell type \v1_complex is unknown!
+
+=== ue_v12_complex ===
+
+   Number of wires:               6388
+   Number of wire bits:          17352
+   Number of public wires:        6388
+   Number of public wire bits:   17352
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               6243
+     f3_add                       3050
+     f3_sub3                      3184
+     ub_complex_29                   1
+     ub_complex_31                   8
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_sub3 is unknown!
+   Area for cell type \ub_complex_31 is unknown!
+   Area for cell type \ub_complex_29 is unknown!
+
+=== ue_v12_real ===
+
+   Number of wires:               3314
+   Number of wire bits:           8916
+   Number of public wires:        3314
+   Number of public wire bits:    8916
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3243
+     f3_add                       1642
+     f3_sub3                      1595
+     ub_complex_31                   3
+     ub_real_29                      1
+     ub_real_31                      2
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_sub3 is unknown!
+   Area for cell type \ub_real_31 is unknown!
+   Area for cell type \ub_complex_31 is unknown!
+   Area for cell type \ub_real_29 is unknown!
+
+=== ue_v14_real ===
+
+   Number of wires:              16466
+   Number of wire bits:          44468
+   Number of public wires:       16466
+   Number of public wire bits:   44468
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              16155
+     f3_add                       8218
+     f3_sub3                      7931
+     ue_v11_real                     1
+     ue_v12_complex                  3
+     ue_v12_real                     2
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_sub3 is unknown!
+   Area for cell type \ue_v12_real is unknown!
+   Area for cell type \ue_v12_complex is unknown!
+   Area for cell type \ue_v11_real is unknown!
+
+=== v1_complex ===
+
+   Number of wires:               1212
+   Number of wire bits:           3248
+   Number of public wires:        1212
+   Number of public wire bits:    3248
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1159
+     f3_add                        558
+     f3_sub3                       592
+     sb6_f9                          9
+
+   Area for cell type \f3_add is unknown!
+   Area for cell type \f3_sub3 is unknown!
+   Area for cell type \sb6_f9 is unknown!
+
+=== design hierarchy ===
+
+   u1_r3_761                         1
+     f3_add                       1520
+     ue_v14_real                     1
+       f3_add                     8218
+       f3_sub3                    7931
+         f3_add                      1
+       ue_v11_real                   1
+         f3_add                   1594
+         f3_sub3                  1547
+           f3_add                    1
+         ka2_real                    2
+           f3_add                   73
+           f3_sub3                  58
+             f3_add                  1
+           sbr15_f3                  3
+             f3_add                196
+             f3_mul                225
+         ub_real_29                  1
+           f3_add                   71
+           f3_sub3                  56
+             f3_add                  1
+           sbr14_f3                  1
+             f3_add                169
+             f3_mul                196
+           sbr15_f3                  2
+             f3_add                196
+             f3_mul                225
+         v1_complex                  3
+           f3_add                  558
+           f3_sub3                 592
+             f3_add                  1
+           sb6_f9                    9
+             f3_add                 50
+             f9_mul                 36
+               f3_add                2
+               f3_mul                4
+       ue_v12_complex                3
+         f3_add                   3050
+         f3_sub3                  3184
+           f3_add                    1
+         ub_complex_29               1
+           f3_add                  142
+           f3_sub3                 112
+             f3_add                  1
+           sb14_f9                   1
+             f3_add                338
+             f9_mul                196
+               f3_add                2
+               f3_mul                4
+           sb15_f9                   2
+             f3_add                392
+             f9_mul                225
+               f3_add                2
+               f3_mul                4
+         ub_complex_31               8
+           f3_add                  152
+           f3_sub3                 120
+             f3_add                  1
+           sb15_f9                   1
+             f3_add                392
+             f9_mul                225
+               f3_add                2
+               f3_mul                4
+           sb16_f9                   2
+             f3_add                450
+             f9_mul                256
+               f3_add                2
+               f3_mul                4
+       ue_v12_real                   2
+         f3_add                   1642
+         f3_sub3                  1595
+           f3_add                    1
+         ub_complex_31               3
+           f3_add                  152
+           f3_sub3                 120
+             f3_add                  1
+           sb15_f9                   1
+             f3_add                392
+             f9_mul                225
+               f3_add                2
+               f3_mul                4
+           sb16_f9                   2
+             f3_add                450
+             f9_mul                256
+               f3_add                2
+               f3_mul                4
+         ub_real_29                  1
+           f3_add                   71
+           f3_sub3                  56
+             f3_add                  1
+           sbr14_f3                  1
+             f3_add                169
+             f3_mul                196
+           sbr15_f3                  2
+             f3_add                196
+             f3_mul                225
+         ub_real_31                  2
+           f3_add                   76
+           f3_sub3                  60
+             f3_add                  1
+           sbr15_f3                  1
+             f3_add                196
+             f3_mul                225
+           sbr16_f3                  2
+             f3_add                225
+             f3_mul                256
+
+   Number of wires:             7932976
+   Number of wire bits:         9411124
+   Number of public wires:      1364044
+   Number of public wire bits:  2842192
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             2437492
+     AND2_X1                     53476
+     AOI21_X1                   106316
+     AOI22_X1                   106316
+     INV_X1                      53476
+     NAND2_X1                   952964
+     NAND3_X1                   106316
+     NAND4_X1                   106316
+     NOR2_X1                    159792
+     OAI22_X1                   158504
+     XNOR2_X1                   634016
+
+   Chip area for top module '\u1_r3_761': 2705067.848000
+
+Warnings: 8 unique messages, 72 total
+End of script. Logfile hash: 408972f95e, CPU: user 21.93s system 0.35s, MEM: 348.26 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 35% 18x opt_clean (7 sec), 16% 12x opt_dff (3 sec), ...

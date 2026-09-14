@@ -21,9 +21,29 @@ src/vhdl/    VHDL sources (decapsulation, memories, freeze, encoding wrappers)
 src/vlog/    Verilog sources (U1/B1 multipliers, bridges, Peng encoding)
 src/nangate45.lib   standard-cell library
 scripts/     Yosys synthesis scripts and the VHDL-to-Verilog helper scripts
-reports/     synthesis logs with chip area
+reports/     synthesis logs with chip area (see the mapping below)
 LICENSE_PENG_SNTRUP_FPGA   license of the Peng et al. base design
 ```
+
+## Synthesis logs (reports/)
+
+Each area figure in the paper is the `chip area` line of one of these logs. The paper's
+Appendix (Synthesis reproduction) lists the same mapping.
+
+| Log file | What it synthesizes | Cell area (um^2) | Paper |
+|---|---|---|---|
+| `synth_mult_u1.log`    | U1 multiplier, deployable (single engine)   | 431,430   | 0.43 mm^2 |
+| `synth_mult_b1.log`    | B1 multiplier, serial                        | 902,373   | 0.90 mm^2 |
+| `synth_mult_peng.log`  | Peng parallel-schoolbook multiplier          | 320,057   | 0.32 mm^2 |
+| `synth_comb_u1.log`    | U1 fully combinational                       | 2,705,068 | 2.71 mm^2 |
+| `synth_comb_b1.log`    | B1 fully combinational                       | 2,446,018 | 2.45 mm^2 |
+| `synth_decap_u1.log`   | U1-integrated full decapsulation             | 972,392   | 0.97 mm^2 |
+| `synth_decap_b1.log`   | B1-integrated full decapsulation             | 1,443,994 | 1.44 mm^2 |
+| `synth_decap_peng.log` | Peng decapsulation wrapper (multiplier at top level, added separately) | 479,108 | 0.48 mm^2 |
+
+Peng full decapsulation in the paper is 0.80 mm^2 = 0.48 (wrapper) + 0.32 (shared
+multiplier), since Peng instantiates its multiplier at the top level rather than inside
+the decapsulation.
 
 ## Tools
 

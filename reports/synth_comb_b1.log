@@ -1,0 +1,2748 @@
+nohup: ignoring input
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.33 (git sha1 2584903a060)
+
+
+-- Executing script file `synth_b1par.ys' --
+
+1. Executing Verilog-2005 frontend: b1_real_0608.v
+Parsing Verilog input from `b1_real_0608.v' to AST representation.
+Generating RTLIL representation for module `\b1_real_0608'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: ka2_b1_258_0608.v
+Parsing Verilog input from `ka2_b1_258_0608.v' to AST representation.
+Generating RTLIL representation for module `\ka2_b1_258_0608'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: ka2_b1_256_0608.v
+Parsing Verilog input from `ka2_b1_256_0608.v' to AST representation.
+Generating RTLIL representation for module `\ka2_b1_256_0608'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: ka2_b1_128_0608.v
+Parsing Verilog input from `ka2_b1_128_0608.v' to AST representation.
+Generating RTLIL representation for module `\ka2_b1_128_0608'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: ka2_b1_64_0608.v
+Parsing Verilog input from `ka2_b1_64_0608.v' to AST representation.
+Generating RTLIL representation for module `\ka2_b1_64_0608'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: ka2_b1_32_0608.v
+Parsing Verilog input from `ka2_b1_32_0608.v' to AST representation.
+Generating RTLIL representation for module `\ka2_b1_32_0608'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: ub_real_129_0608.v
+Parsing Verilog input from `ub_real_129_0608.v' to AST representation.
+Generating RTLIL representation for module `\ub_real_129_0608'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: ub_real_65_0608.v
+Parsing Verilog input from `ub_real_65_0608.v' to AST representation.
+Generating RTLIL representation for module `\ub_real_65_0608'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: ub_real_33_0608.v
+Parsing Verilog input from `ub_real_33_0608.v' to AST representation.
+Generating RTLIL representation for module `\ub_real_33_0608'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: sbr17_f3_0608.v
+Parsing Verilog input from `sbr17_f3_0608.v' to AST representation.
+Generating RTLIL representation for module `\sbr17_f3_0608'.
+Successfully finished Verilog frontend.
+
+11. Executing Verilog-2005 frontend: sbr16_f3_0608.v
+Parsing Verilog input from `sbr16_f3_0608.v' to AST representation.
+Generating RTLIL representation for module `\sbr16_f3_0608'.
+Successfully finished Verilog frontend.
+
+12. Executing Verilog-2005 frontend: f3_add_0608.v
+Parsing Verilog input from `f3_add_0608.v' to AST representation.
+Generating RTLIL representation for module `\f3_add_0608'.
+Successfully finished Verilog frontend.
+
+13. Executing Verilog-2005 frontend: f3_mul_0608.v
+Parsing Verilog input from `f3_mul_0608.v' to AST representation.
+Generating RTLIL representation for module `\f3_mul_0608'.
+Successfully finished Verilog frontend.
+
+14. Executing Verilog-2005 frontend: f3_sub3_0608.v
+Parsing Verilog input from `f3_sub3_0608.v' to AST representation.
+Generating RTLIL representation for module `\f3_sub3_0608'.
+Successfully finished Verilog frontend.
+
+15. Executing HIERARCHY pass (managing design hierarchy).
+
+15.1. Analyzing design hierarchy..
+Top module:  \b1_real_0608
+Used module:     \f3_add_0608
+Used module:     \f3_sub3_0608
+Used module:     \ka2_b1_256_0608
+Used module:         \ka2_b1_128_0608
+Used module:             \ka2_b1_64_0608
+Used module:                 \ka2_b1_32_0608
+Used module:                     \sbr16_f3_0608
+Used module:                         \f3_mul_0608
+Used module:     \ka2_b1_258_0608
+Used module:         \ub_real_129_0608
+Used module:             \ub_real_65_0608
+Used module:                 \ub_real_33_0608
+Used module:                     \sbr17_f3_0608
+
+15.2. Analyzing design hierarchy..
+Top module:  \b1_real_0608
+Used module:     \f3_add_0608
+Used module:     \f3_sub3_0608
+Used module:     \ka2_b1_256_0608
+Used module:         \ka2_b1_128_0608
+Used module:             \ka2_b1_64_0608
+Used module:                 \ka2_b1_32_0608
+Used module:                     \sbr16_f3_0608
+Used module:                         \f3_mul_0608
+Used module:     \ka2_b1_258_0608
+Used module:         \ub_real_129_0608
+Used module:             \ub_real_65_0608
+Used module:                 \ub_real_33_0608
+Used module:                     \sbr17_f3_0608
+Removed 0 unused modules.
+
+16. Executing SYNTH pass.
+
+16.1. Executing HIERARCHY pass (managing design hierarchy).
+
+16.1.1. Analyzing design hierarchy..
+Top module:  \b1_real_0608
+Used module:     \f3_add_0608
+Used module:     \f3_sub3_0608
+Used module:     \ka2_b1_256_0608
+Used module:         \ka2_b1_128_0608
+Used module:             \ka2_b1_64_0608
+Used module:                 \ka2_b1_32_0608
+Used module:                     \sbr16_f3_0608
+Used module:                         \f3_mul_0608
+Used module:     \ka2_b1_258_0608
+Used module:         \ub_real_129_0608
+Used module:             \ub_real_65_0608
+Used module:                 \ub_real_33_0608
+Used module:                     \sbr17_f3_0608
+
+16.1.2. Analyzing design hierarchy..
+Top module:  \b1_real_0608
+Used module:     \f3_add_0608
+Used module:     \f3_sub3_0608
+Used module:     \ka2_b1_256_0608
+Used module:         \ka2_b1_128_0608
+Used module:             \ka2_b1_64_0608
+Used module:                 \ka2_b1_32_0608
+Used module:                     \sbr16_f3_0608
+Used module:                         \f3_mul_0608
+Used module:     \ka2_b1_258_0608
+Used module:         \ub_real_129_0608
+Used module:             \ub_real_65_0608
+Used module:                 \ub_real_33_0608
+Used module:                     \sbr17_f3_0608
+Removed 0 unused modules.
+
+16.2. Executing PROC pass (convert processes to netlists).
+
+16.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+16.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+16.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+16.2.4. Executing PROC_INIT pass (extract init attributes).
+
+16.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+16.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+16.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+16.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+16.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+16.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+16.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+16.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_sub3_0608.
+<suppressed ~1 debug messages>
+Optimizing module f3_mul_0608.
+Optimizing module f3_add_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module b1_real_0608.
+
+16.3. Executing OPT_EXPR pass (perform const folding).
+Optimizing module f3_sub3_0608.
+Optimizing module f3_mul_0608.
+Optimizing module f3_add_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module b1_real_0608.
+
+16.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \b1_real_0608..
+Removed 4 unused cells and 8 unused wires.
+<suppressed ~12 debug messages>
+
+16.5. Executing CHECK pass (checking for obvious problems).
+Checking module b1_real_0608...
+Checking module f3_add_0608...
+Checking module f3_mul_0608...
+Checking module f3_sub3_0608...
+Checking module ka2_b1_128_0608...
+Checking module ka2_b1_256_0608...
+Checking module ka2_b1_258_0608...
+Checking module ka2_b1_32_0608...
+Checking module ka2_b1_64_0608...
+Checking module sbr16_f3_0608...
+Checking module sbr17_f3_0608...
+Checking module ub_real_129_0608...
+Checking module ub_real_33_0608...
+Checking module ub_real_65_0608...
+Found and reported 0 problems.
+
+16.6. Executing OPT pass (performing simple optimizations).
+
+16.6.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+Optimizing module f3_mul_0608.
+Optimizing module f3_sub3_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.6.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 0 cells.
+
+16.6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \b1_real_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \f3_add_0608..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_mul_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \f3_sub3_0608..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \ka2_b1_128_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_256_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_258_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_32_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_64_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr16_f3_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr17_f3_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_129_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_33_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_65_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~2 debug messages>
+
+16.6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \b1_real_0608.
+  Optimizing cells in module \f3_add_0608.
+  Optimizing cells in module \f3_mul_0608.
+  Optimizing cells in module \f3_sub3_0608.
+  Optimizing cells in module \ka2_b1_128_0608.
+  Optimizing cells in module \ka2_b1_256_0608.
+  Optimizing cells in module \ka2_b1_258_0608.
+  Optimizing cells in module \ka2_b1_32_0608.
+  Optimizing cells in module \ka2_b1_64_0608.
+  Optimizing cells in module \sbr16_f3_0608.
+  Optimizing cells in module \sbr17_f3_0608.
+  Optimizing cells in module \ub_real_129_0608.
+  Optimizing cells in module \ub_real_33_0608.
+  Optimizing cells in module \ub_real_65_0608.
+Performed a total of 0 changes.
+
+16.6.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 0 cells.
+
+16.6.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+16.6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+
+16.6.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+Optimizing module f3_mul_0608.
+Optimizing module f3_sub3_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.6.9. Finished OPT passes. (There is nothing left to do.)
+
+16.7. Executing FSM pass (extract and optimize FSM).
+
+16.7.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+16.7.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+16.7.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+16.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+
+16.7.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+16.7.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+16.7.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+16.7.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+16.8. Executing OPT pass (performing simple optimizations).
+
+16.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+Optimizing module f3_mul_0608.
+Optimizing module f3_sub3_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 0 cells.
+
+16.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \b1_real_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \f3_add_0608..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_mul_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \f3_sub3_0608..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \ka2_b1_128_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_256_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_258_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_32_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_64_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr16_f3_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr17_f3_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_129_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_33_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_65_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~2 debug messages>
+
+16.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \b1_real_0608.
+  Optimizing cells in module \f3_add_0608.
+  Optimizing cells in module \f3_mul_0608.
+  Optimizing cells in module \f3_sub3_0608.
+  Optimizing cells in module \ka2_b1_128_0608.
+  Optimizing cells in module \ka2_b1_256_0608.
+  Optimizing cells in module \ka2_b1_258_0608.
+  Optimizing cells in module \ka2_b1_32_0608.
+  Optimizing cells in module \ka2_b1_64_0608.
+  Optimizing cells in module \sbr16_f3_0608.
+  Optimizing cells in module \sbr17_f3_0608.
+  Optimizing cells in module \ub_real_129_0608.
+  Optimizing cells in module \ub_real_33_0608.
+  Optimizing cells in module \ub_real_65_0608.
+Performed a total of 0 changes.
+
+16.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 0 cells.
+
+16.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+16.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+
+16.8.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+Optimizing module f3_mul_0608.
+Optimizing module f3_sub3_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.8.9. Finished OPT passes. (There is nothing left to do.)
+
+16.9. Executing WREDUCE pass (reducing word size of cells).
+Removed top 30 bits (of 32) from port B of cell f3_add_0608.$ge$f3_add_0608.v:2$2 ($ge).
+Removed top 30 bits (of 32) from port B of cell f3_add_0608.$sub$f3_add_0608.v:2$3 ($sub).
+Removed top 28 bits (of 32) from port Y of cell f3_add_0608.$sub$f3_add_0608.v:2$3 ($sub).
+Removed top 30 bits (of 32) from mux cell f3_add_0608.$ternary$f3_add_0608.v:2$5 ($mux).
+Removed top 2 bits (of 4) from port Y of cell f3_add_0608.$sub$f3_add_0608.v:2$3 ($sub).
+Removed top 1 bits (of 3) from port A of cell f3_add_0608.$sub$f3_add_0608.v:2$3 ($sub).
+Removed top 30 bits (of 32) from wire f3_add_0608.$sub$f3_add_0608.v:2$3_Y.
+Removed top 1 bits (of 3) from wire f3_add_0608.s.
+Removed top 30 bits (of 32) from port B of cell f3_mul_0608.$mod$f3_mul_0608.v:2$7 ($mod).
+
+16.10. Executing PEEPOPT pass (run peephole optimizers).
+
+16.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~1 debug messages>
+
+16.12. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module b1_real_0608:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module f3_add_0608:
+  creating $macc model for $add$f3_add_0608.v:2$1 ($add).
+  creating $macc model for $sub$f3_add_0608.v:2$3 ($sub).
+  creating $alu model for $macc $sub$f3_add_0608.v:2$3.
+  creating $alu model for $macc $add$f3_add_0608.v:2$1.
+  creating $alu model for $ge$f3_add_0608.v:2$2 ($ge): new $alu
+  creating $alu cell for $ge$f3_add_0608.v:2$2: $auto$alumacc.cc:485:replace_alu$14
+  creating $alu cell for $add$f3_add_0608.v:2$1: $auto$alumacc.cc:485:replace_alu$23
+  creating $alu cell for $sub$f3_add_0608.v:2$3: $auto$alumacc.cc:485:replace_alu$26
+  created 3 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module f3_mul_0608:
+  creating $macc model for $mul$f3_mul_0608.v:2$6 ($mul).
+  creating $macc cell for $mul$f3_mul_0608.v:2$6: $auto$alumacc.cc:365:replace_macc$29
+  created 0 $alu and 1 $macc cells.
+Extracting $alu and $macc cells in module f3_sub3_0608:
+  creating $macc model for $sub$f3_sub3_0608.v:2$9 ($sub).
+  creating $alu model for $macc $sub$f3_sub3_0608.v:2$9.
+  creating $alu cell for $sub$f3_sub3_0608.v:2$9: $auto$alumacc.cc:485:replace_alu$30
+  created 1 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ka2_b1_128_0608:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ka2_b1_256_0608:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ka2_b1_258_0608:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ka2_b1_32_0608:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ka2_b1_64_0608:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module sbr16_f3_0608:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module sbr17_f3_0608:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ub_real_129_0608:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ub_real_33_0608:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module ub_real_65_0608:
+  created 0 $alu and 0 $macc cells.
+
+16.13. Executing SHARE pass (SAT-based resource sharing).
+
+16.14. Executing OPT pass (performing simple optimizations).
+
+16.14.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+Optimizing module f3_mul_0608.
+Optimizing module f3_sub3_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.14.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 0 cells.
+
+16.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \b1_real_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \f3_add_0608..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_mul_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \f3_sub3_0608..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \ka2_b1_128_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_256_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_258_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_32_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_64_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr16_f3_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr17_f3_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_129_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_33_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_65_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~2 debug messages>
+
+16.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \b1_real_0608.
+  Optimizing cells in module \f3_add_0608.
+  Optimizing cells in module \f3_mul_0608.
+  Optimizing cells in module \f3_sub3_0608.
+  Optimizing cells in module \ka2_b1_128_0608.
+  Optimizing cells in module \ka2_b1_256_0608.
+  Optimizing cells in module \ka2_b1_258_0608.
+  Optimizing cells in module \ka2_b1_32_0608.
+  Optimizing cells in module \ka2_b1_64_0608.
+  Optimizing cells in module \sbr16_f3_0608.
+  Optimizing cells in module \sbr17_f3_0608.
+  Optimizing cells in module \ub_real_129_0608.
+  Optimizing cells in module \ub_real_33_0608.
+  Optimizing cells in module \ub_real_65_0608.
+Performed a total of 0 changes.
+
+16.14.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 0 cells.
+
+16.14.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+16.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+Removed 0 unused cells and 1 unused wires.
+<suppressed ~1 debug messages>
+
+16.14.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+Optimizing module f3_mul_0608.
+Optimizing module f3_sub3_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.14.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+16.14.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \b1_real_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \f3_add_0608..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_mul_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \f3_sub3_0608..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \ka2_b1_128_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_256_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_258_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_32_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_64_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr16_f3_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr17_f3_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_129_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_33_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_65_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~2 debug messages>
+
+16.14.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \b1_real_0608.
+  Optimizing cells in module \f3_add_0608.
+  Optimizing cells in module \f3_mul_0608.
+  Optimizing cells in module \f3_sub3_0608.
+  Optimizing cells in module \ka2_b1_128_0608.
+  Optimizing cells in module \ka2_b1_256_0608.
+  Optimizing cells in module \ka2_b1_258_0608.
+  Optimizing cells in module \ka2_b1_32_0608.
+  Optimizing cells in module \ka2_b1_64_0608.
+  Optimizing cells in module \sbr16_f3_0608.
+  Optimizing cells in module \sbr17_f3_0608.
+  Optimizing cells in module \ub_real_129_0608.
+  Optimizing cells in module \ub_real_33_0608.
+  Optimizing cells in module \ub_real_65_0608.
+Performed a total of 0 changes.
+
+16.14.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 0 cells.
+
+16.14.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+16.14.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+
+16.14.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+Optimizing module f3_mul_0608.
+Optimizing module f3_sub3_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.14.16. Finished OPT passes. (There is nothing left to do.)
+
+16.15. Executing MEMORY pass.
+
+16.15.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+16.15.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+16.15.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+16.15.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+16.15.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+16.15.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+
+16.15.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+16.15.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+16.15.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+
+16.15.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+16.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+
+16.17. Executing OPT pass (performing simple optimizations).
+
+16.17.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+<suppressed ~1 debug messages>
+Optimizing module f3_mul_0608.
+Optimizing module f3_sub3_0608.
+<suppressed ~4 debug messages>
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.17.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 0 cells.
+
+16.17.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+16.17.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+Removed 2 unused cells and 6 unused wires.
+<suppressed ~4 debug messages>
+
+16.17.5. Finished fast OPT passes.
+
+16.18. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+16.19. Executing OPT pass (performing simple optimizations).
+
+16.19.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+Optimizing module f3_mul_0608.
+Optimizing module f3_sub3_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.19.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 0 cells.
+
+16.19.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \b1_real_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \f3_add_0608..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \f3_mul_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \f3_sub3_0608..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module \ka2_b1_128_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_256_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_258_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_32_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ka2_b1_64_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr16_f3_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \sbr17_f3_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_129_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_33_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \ub_real_65_0608..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~2 debug messages>
+
+16.19.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \b1_real_0608.
+  Optimizing cells in module \f3_add_0608.
+  Optimizing cells in module \f3_mul_0608.
+  Optimizing cells in module \f3_sub3_0608.
+  Optimizing cells in module \ka2_b1_128_0608.
+  Optimizing cells in module \ka2_b1_256_0608.
+  Optimizing cells in module \ka2_b1_258_0608.
+  Optimizing cells in module \ka2_b1_32_0608.
+  Optimizing cells in module \ka2_b1_64_0608.
+  Optimizing cells in module \sbr16_f3_0608.
+  Optimizing cells in module \sbr17_f3_0608.
+  Optimizing cells in module \ub_real_129_0608.
+  Optimizing cells in module \ub_real_33_0608.
+  Optimizing cells in module \ub_real_65_0608.
+Performed a total of 0 changes.
+
+16.19.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 0 cells.
+
+16.19.6. Executing OPT_SHARE pass.
+
+16.19.7. Executing OPT_DFF pass (perform DFF optimizations).
+
+16.19.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+
+16.19.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+Optimizing module f3_mul_0608.
+Optimizing module f3_sub3_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.19.10. Finished OPT passes. (There is nothing left to do.)
+
+16.20. Executing TECHMAP pass (map to technology primitives).
+
+16.20.1. Executing Verilog-2005 frontend: /usr/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/usr/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Successfully finished Verilog frontend.
+
+16.20.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $logic_not.
+Using extmapper simplemap for cells of type $mux.
+Using extmapper simplemap for cells of type $not.
+Using extmapper maccmap for cells of type $macc.
+  add \a * \b (2x2 bits, unsigned)
+Using template $paramod$b83bdd37aede53ff8f2a9a83e37e55f42aa80927\_90_mod for cells of type $mod.
+Using extmapper simplemap for cells of type $and.
+Using template $paramod$740b056ede97228d3eae64ea2fdc81f0a33e0fe7\_90_alu for cells of type $alu.
+Using template $paramod$b83bdd37aede53ff8f2a9a83e37e55f42aa80927\$__div_mod_trunc for cells of type $__div_mod_trunc.
+Using extmapper simplemap for cells of type $xor.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000000100 for cells of type $lcu.
+Using extmapper simplemap for cells of type $pos.
+Running "alumacc" on wrapper $extern:wrap:$neg:Y_WIDTH=32:A_WIDTH=32:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$neg:Y_WIDTH=32:A_WIDTH=32:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$neg:Y_WIDTH=32:A_WIDTH=32:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using extmapper simplemap for cells of type $logic_and.
+Using extmapper simplemap for cells of type $ne.
+Using template $paramod\$__div_mod_u\WIDTH=32'00000000000000000000000000100000 for cells of type $__div_mod_u.
+Using extmapper simplemap for cells of type $or.
+Using template $paramod$c6baa65225090ac0a120feab1b920965244aa496\_90_alu for cells of type $alu.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=32:B_WIDTH=32:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=32:B_WIDTH=32:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=32:B_WIDTH=32:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=32:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=32:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=32:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=33:B_WIDTH=33:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=33:B_WIDTH=33:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=33:B_WIDTH=33:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=33:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=33:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=33:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=34:B_WIDTH=34:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=34:B_WIDTH=34:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=34:B_WIDTH=34:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=34:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=34:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=34:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=35:B_WIDTH=35:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=35:B_WIDTH=35:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=35:B_WIDTH=35:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=35:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=35:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=35:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=36:B_WIDTH=36:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=36:B_WIDTH=36:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=36:B_WIDTH=36:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=36:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=36:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=36:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=37:B_WIDTH=37:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=37:B_WIDTH=37:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=37:B_WIDTH=37:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=37:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=37:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=37:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=38:B_WIDTH=38:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=38:B_WIDTH=38:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=38:B_WIDTH=38:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=38:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=38:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=38:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=39:B_WIDTH=39:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=39:B_WIDTH=39:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=39:B_WIDTH=39:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=39:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=39:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=39:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=40:B_WIDTH=40:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=40:B_WIDTH=40:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=40:B_WIDTH=40:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=40:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=40:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=40:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=41:B_WIDTH=41:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=41:B_WIDTH=41:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=41:B_WIDTH=41:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=41:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=41:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=41:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=42:B_WIDTH=42:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=42:B_WIDTH=42:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=42:B_WIDTH=42:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=42:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=42:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=42:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=43:B_WIDTH=43:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=43:B_WIDTH=43:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=43:B_WIDTH=43:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=43:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=43:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=43:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=44:B_WIDTH=44:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=44:B_WIDTH=44:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=44:B_WIDTH=44:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=44:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=44:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=44:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=45:B_WIDTH=45:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=45:B_WIDTH=45:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=45:B_WIDTH=45:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=45:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=45:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=45:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=46:B_WIDTH=46:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=46:B_WIDTH=46:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=46:B_WIDTH=46:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=46:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=46:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=46:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=47:B_WIDTH=47:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=47:B_WIDTH=47:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=47:B_WIDTH=47:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=47:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=47:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=47:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=48:B_WIDTH=48:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=48:B_WIDTH=48:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=48:B_WIDTH=48:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=48:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=48:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=48:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=49:B_WIDTH=49:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=49:B_WIDTH=49:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=49:B_WIDTH=49:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=49:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=49:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=49:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=50:B_WIDTH=50:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=50:B_WIDTH=50:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=50:B_WIDTH=50:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=50:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=50:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=50:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=51:B_WIDTH=51:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=51:B_WIDTH=51:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=51:B_WIDTH=51:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=51:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=51:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=51:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=52:B_WIDTH=52:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=52:B_WIDTH=52:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=52:B_WIDTH=52:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=52:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=52:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=52:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=53:B_WIDTH=53:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=53:B_WIDTH=53:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=53:B_WIDTH=53:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=53:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=53:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=53:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=54:B_WIDTH=54:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=54:B_WIDTH=54:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=54:B_WIDTH=54:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=54:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=54:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=54:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=55:B_WIDTH=55:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=55:B_WIDTH=55:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=55:B_WIDTH=55:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=55:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=55:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=55:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=56:B_WIDTH=56:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=56:B_WIDTH=56:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=56:B_WIDTH=56:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=56:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=56:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=56:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=57:B_WIDTH=57:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=57:B_WIDTH=57:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=57:B_WIDTH=57:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=57:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=57:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=57:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=58:B_WIDTH=58:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=58:B_WIDTH=58:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=58:B_WIDTH=58:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=58:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=58:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=58:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=59:B_WIDTH=59:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=59:B_WIDTH=59:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=59:B_WIDTH=59:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=59:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=59:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=59:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=60:B_WIDTH=60:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=60:B_WIDTH=60:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=60:B_WIDTH=60:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=60:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=60:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=60:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=61:B_WIDTH=61:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=61:B_WIDTH=61:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=61:B_WIDTH=61:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=61:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=61:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=61:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=62:B_WIDTH=62:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=62:B_WIDTH=62:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=62:B_WIDTH=62:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=62:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=62:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=62:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$sub:Y_WIDTH=63:B_WIDTH=63:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$sub:Y_WIDTH=63:B_WIDTH=63:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$sub:Y_WIDTH=63:B_WIDTH=63:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Running "alumacc" on wrapper $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=63:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=63:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47 for cells of type $extern:wrap:$ge:Y_WIDTH=1:B_WIDTH=63:A_WIDTH=32:B_SIGNED=0:A_SIGNED=0:394426c56d1a028ba8fdd5469b163e04011def47.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000100000 for cells of type $lcu.
+Using template $paramod$fbc7873bff55778c0b3173955b7e4bce1d9d6834\_90_alu for cells of type $alu.
+Using extmapper simplemap for cells of type $reduce_and.
+Using extmapper simplemap for cells of type $reduce_or.
+Using template $paramod$789c344356a154d2afc7b832b41d1067dbc946ba\_90_alu for cells of type $alu.
+Using template $paramod$e39069e3f4ee35c1eea86993bd74689959babaab\_90_alu for cells of type $alu.
+Using template $paramod$d7aca3dc44b07ff19908fb1a3b606577588c15f1\_90_alu for cells of type $alu.
+Using template $paramod$f9e3a3c4b84f99cb56fad07743ec44ad55b11c8b\_90_alu for cells of type $alu.
+Using template $paramod$dd5ba471f7dcf35707f23b88cfd15b9582f97277\_90_alu for cells of type $alu.
+Using template $paramod$b7531bc0616f8d4cdd8159edd2237c9ddbb2ce01\_90_alu for cells of type $alu.
+Using template $paramod$ff8ba121d2f8e85b775c9f35ef677a1a276e7e1b\_90_alu for cells of type $alu.
+Using template $paramod$9a66d4bebbc4fab84566caffef9f094a1a467389\_90_alu for cells of type $alu.
+Using template $paramod$57bc309a5d8a948cec8981d26d896ee1cbf54d58\_90_alu for cells of type $alu.
+Using template $paramod$f94cfdb8ad389f4fc4515bcb65bccd7e2d189e95\_90_alu for cells of type $alu.
+Using template $paramod$2a25669ccd39fe7c0fbfb2a4d17416fc78667f00\_90_alu for cells of type $alu.
+Using template $paramod$d9397dfdf5f7cf5715aebc9527845402880218a0\_90_alu for cells of type $alu.
+Using template $paramod$acc477ace2583cc2ee0cf651c72a385d2bbbe9f1\_90_alu for cells of type $alu.
+Using template $paramod$415abdcadc251df4f0f033b62b8f3296b8461b4e\_90_alu for cells of type $alu.
+Using template $paramod$6573c1c269218f299badf6e04ca86aa37fdb352c\_90_alu for cells of type $alu.
+Using template $paramod$6a21b72c9c0b32e81b169c7e08a4d8b9c462448f\_90_alu for cells of type $alu.
+Using template $paramod$324e0706ebb77f1915b22f4a136962ec3fd1d7ff\_90_alu for cells of type $alu.
+Using template $paramod$461fc931d630cb01bec1fea87f37fbcc53f6f6a4\_90_alu for cells of type $alu.
+Using template $paramod$fe074227b1c5fbaa1ea56076182c29dbcf3a782a\_90_alu for cells of type $alu.
+Using template $paramod$85502450775e62e9c6a2fe29020b3433d4335647\_90_alu for cells of type $alu.
+Using template $paramod$e32c921f95fe0e2350204f4ecefc9e296355521b\_90_alu for cells of type $alu.
+Using template $paramod$05d913fba320393c7e943e625bef3af776153b60\_90_alu for cells of type $alu.
+Using template $paramod$8e07e2c0a3efc148d2f3714f3901076678774ed1\_90_alu for cells of type $alu.
+Using template $paramod$5b7e592b3c2951af6800b7fd597f66a79b72b91c\_90_alu for cells of type $alu.
+Using template $paramod$90182783100594e2dd636a282c4723cfc9adaedd\_90_alu for cells of type $alu.
+Using template $paramod$851c5c9b30913ea2deae68e3ca9e9c4e649723bc\_90_alu for cells of type $alu.
+Using template $paramod$1445aacdb5f2a1ef9fedf1373097ffa45438211d\_90_alu for cells of type $alu.
+Using template $paramod$7add42b712fe5bbbba521e93062103d6bf78a453\_90_alu for cells of type $alu.
+Using template $paramod$b6f86f6a0c43c26b22ee55f51e05d5951f0e6562\_90_alu for cells of type $alu.
+Using template $paramod$044fdceace8c449ec99f900b42120ac005ff4065\_90_alu for cells of type $alu.
+Using template $paramod$b6b58933bcf3c8b9e3e5de18c2637bd0e12c7c47\_90_alu for cells of type $alu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000100001 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000100010 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000100011 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000100100 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000100101 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000100110 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000100111 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000101000 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000101001 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000101010 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000101011 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000101100 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000101101 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000101110 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000101111 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000110000 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000110001 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000110010 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000110011 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000110100 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000110101 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000110110 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000110111 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000111000 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000111001 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000111010 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000111011 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000111100 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000111101 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000111110 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000111111 for cells of type $lcu.
+Using template $paramod$649fc39eef2451024566705288528c8671211199\_90_alu for cells of type $alu.
+Using template $paramod$7e708ae28ab761f11d0fb59d3ffc72f6a4baf5d9\_90_alu for cells of type $alu.
+Using template $paramod$adbaf76fa5a3091a329503792521395f8ff4d1a4\_90_alu for cells of type $alu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000000011 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000000010 for cells of type $lcu.
+Using template $paramod\_90_lcu\WIDTH=32'00000000000000000000000000000001 for cells of type $lcu.
+No more expansions possible.
+<suppressed ~22231 debug messages>
+
+16.21. Executing OPT pass (performing simple optimizations).
+
+16.21.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+<suppressed ~35 debug messages>
+Optimizing module f3_mul_0608.
+<suppressed ~34169 debug messages>
+Optimizing module f3_sub3_0608.
+<suppressed ~2 debug messages>
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.21.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+<suppressed ~5571 debug messages>
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 1857 cells.
+
+16.21.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+16.21.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+Removed 376 unused cells and 16895 unused wires.
+<suppressed ~379 debug messages>
+
+16.21.5. Finished fast OPT passes.
+
+16.22. Executing ABC pass (technology mapping using ABC).
+
+16.22.1. Extracting gate netlist of module `\b1_real_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+16.22.2. Extracting gate netlist of module `\f3_add_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 15 gates and 19 wires to a netlist network with 4 inputs and 2 outputs.
+
+16.22.2.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 13 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+16.22.2.2. Re-integrating ABC results.
+ABC RESULTS:              NAND cells:        1
+ABC RESULTS:              XNOR cells:        2
+ABC RESULTS:               AND cells:        1
+ABC RESULTS:            ANDNOT cells:        5
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:               XOR cells:        3
+ABC RESULTS:               MUX cells:        1
+ABC RESULTS:        internal signals:       13
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+16.22.3. Extracting gate netlist of module `\f3_mul_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 235 gates and 240 wires to a netlist network with 4 inputs and 2 outputs.
+
+16.22.3.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 13 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+16.22.3.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:        3
+ABC RESULTS:               NOR cells:        1
+ABC RESULTS:             ORNOT cells:        3
+ABC RESULTS:              NAND cells:        5
+ABC RESULTS:                OR cells:       32
+ABC RESULTS:            ANDNOT cells:        9
+ABC RESULTS:               NOT cells:        2
+ABC RESULTS:               XOR cells:        9
+ABC RESULTS:               MUX cells:       10
+ABC RESULTS:        internal signals:      234
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+16.22.4. Extracting gate netlist of module `\f3_sub3_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 5 gates and 8 wires to a netlist network with 2 inputs and 2 outputs.
+
+16.22.4.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 13 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+16.22.4.2. Re-integrating ABC results.
+ABC RESULTS:            ANDNOT cells:        2
+ABC RESULTS:        internal signals:        4
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+16.22.5. Extracting gate netlist of module `\ka2_b1_128_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+16.22.6. Extracting gate netlist of module `\ka2_b1_256_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+16.22.7. Extracting gate netlist of module `\ka2_b1_258_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+16.22.8. Extracting gate netlist of module `\ka2_b1_32_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+16.22.9. Extracting gate netlist of module `\ka2_b1_64_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+16.22.10. Extracting gate netlist of module `\sbr16_f3_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+16.22.11. Extracting gate netlist of module `\sbr17_f3_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+16.22.12. Extracting gate netlist of module `\ub_real_129_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+16.22.13. Extracting gate netlist of module `\ub_real_33_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+16.22.14. Extracting gate netlist of module `\ub_real_65_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+16.23. Executing OPT pass (performing simple optimizations).
+
+16.23.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module b1_real_0608.
+Optimizing module f3_add_0608.
+Optimizing module f3_mul_0608.
+Optimizing module f3_sub3_0608.
+Optimizing module ka2_b1_128_0608.
+Optimizing module ka2_b1_256_0608.
+Optimizing module ka2_b1_258_0608.
+Optimizing module ka2_b1_32_0608.
+Optimizing module ka2_b1_64_0608.
+Optimizing module sbr16_f3_0608.
+Optimizing module sbr17_f3_0608.
+Optimizing module ub_real_129_0608.
+Optimizing module ub_real_33_0608.
+Optimizing module ub_real_65_0608.
+
+16.23.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\b1_real_0608'.
+Finding identical cells in module `\f3_add_0608'.
+Finding identical cells in module `\f3_mul_0608'.
+<suppressed ~63 debug messages>
+Finding identical cells in module `\f3_sub3_0608'.
+Finding identical cells in module `\ka2_b1_128_0608'.
+Finding identical cells in module `\ka2_b1_256_0608'.
+Finding identical cells in module `\ka2_b1_258_0608'.
+Finding identical cells in module `\ka2_b1_32_0608'.
+Finding identical cells in module `\ka2_b1_64_0608'.
+Finding identical cells in module `\sbr16_f3_0608'.
+Finding identical cells in module `\sbr17_f3_0608'.
+Finding identical cells in module `\ub_real_129_0608'.
+Finding identical cells in module `\ub_real_33_0608'.
+Finding identical cells in module `\ub_real_65_0608'.
+Removed a total of 21 cells.
+
+16.23.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+16.23.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \b1_real_0608..
+Finding unused cells or wires in module \f3_add_0608..
+Finding unused cells or wires in module \f3_mul_0608..
+Finding unused cells or wires in module \f3_sub3_0608..
+Finding unused cells or wires in module \ka2_b1_128_0608..
+Finding unused cells or wires in module \ka2_b1_256_0608..
+Finding unused cells or wires in module \ka2_b1_258_0608..
+Finding unused cells or wires in module \ka2_b1_32_0608..
+Finding unused cells or wires in module \ka2_b1_64_0608..
+Finding unused cells or wires in module \sbr16_f3_0608..
+Finding unused cells or wires in module \sbr17_f3_0608..
+Finding unused cells or wires in module \ub_real_129_0608..
+Finding unused cells or wires in module \ub_real_33_0608..
+Finding unused cells or wires in module \ub_real_65_0608..
+Removed 0 unused cells and 121 unused wires.
+<suppressed ~5 debug messages>
+
+16.23.5. Finished fast OPT passes.
+
+16.24. Executing HIERARCHY pass (managing design hierarchy).
+
+16.24.1. Analyzing design hierarchy..
+Top module:  \b1_real_0608
+Used module:     \f3_sub3_0608
+Used module:         \f3_add_0608
+Used module:     \ka2_b1_256_0608
+Used module:         \ka2_b1_128_0608
+Used module:             \ka2_b1_64_0608
+Used module:                 \ka2_b1_32_0608
+Used module:                     \sbr16_f3_0608
+Used module:                         \f3_mul_0608
+Used module:     \ka2_b1_258_0608
+Used module:         \ub_real_129_0608
+Used module:             \ub_real_65_0608
+Used module:                 \ub_real_33_0608
+Used module:                     \sbr17_f3_0608
+
+16.24.2. Analyzing design hierarchy..
+Top module:  \b1_real_0608
+Used module:     \f3_sub3_0608
+Used module:         \f3_add_0608
+Used module:     \ka2_b1_256_0608
+Used module:         \ka2_b1_128_0608
+Used module:             \ka2_b1_64_0608
+Used module:                 \ka2_b1_32_0608
+Used module:                     \sbr16_f3_0608
+Used module:                         \f3_mul_0608
+Used module:     \ka2_b1_258_0608
+Used module:         \ub_real_129_0608
+Used module:             \ub_real_65_0608
+Used module:                 \ub_real_33_0608
+Used module:                     \sbr17_f3_0608
+Removed 0 unused modules.
+
+16.25. Printing statistics.
+
+=== b1_real_0608 ===
+
+   Number of wires:              11022
+   Number of wire bits:          36356
+   Number of public wires:       11022
+   Number of public wire bits:   36356
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               9459
+     f3_add_0608                  4853
+     f3_sub3_0608                 4601
+     ka2_b1_256_0608                 4
+     ka2_b1_258_0608                 1
+
+=== f3_add_0608 ===
+
+   Number of wires:                 15
+   Number of wire bits:             18
+   Number of public wires:           3
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 14
+     $_ANDNOT_                       5
+     $_AND_                          1
+     $_MUX_                          1
+     $_NAND_                         1
+     $_NOT_                          1
+     $_XNOR_                         2
+     $_XOR_                          3
+
+=== f3_mul_0608 ===
+
+   Number of wires:                 54
+   Number of wire bits:             57
+   Number of public wires:           3
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 53
+     $_ANDNOT_                       9
+     $_AND_                          3
+     $_MUX_                          5
+     $_NAND_                         5
+     $_NOR_                          1
+     $_NOT_                          2
+     $_ORNOT_                        3
+     $_OR_                          17
+     $_XOR_                          8
+
+=== f3_sub3_0608 ===
+
+   Number of wires:                  4
+   Number of wire bits:              8
+   Number of public wires:           4
+   Number of public wire bits:       8
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     $_ANDNOT_                       2
+     f3_add_0608                     1
+
+=== ka2_b1_128_0608 ===
+
+   Number of wires:                833
+   Number of wire bits:           3438
+   Number of public wires:         833
+   Number of public wire bits:    3438
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                575
+     f3_add_0608                   318
+     f3_sub3_0608                  254
+     ka2_b1_64_0608                  3
+
+=== ka2_b1_256_0608 ===
+
+   Number of wires:               1665
+   Number of wire bits:           6894
+   Number of public wires:        1665
+   Number of public wire bits:    6894
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1151
+     f3_add_0608                   638
+     f3_sub3_0608                  510
+     ka2_b1_128_0608                 3
+
+=== ka2_b1_258_0608 ===
+
+   Number of wires:               1678
+   Number of wire bits:           6948
+   Number of public wires:        1678
+   Number of public wire bits:    6948
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1160
+     f3_add_0608                   643
+     f3_sub3_0608                  514
+     ub_real_129_0608                3
+
+=== ka2_b1_32_0608 ===
+
+   Number of wires:                209
+   Number of wire bits:            846
+   Number of public wires:         209
+   Number of public wire bits:     846
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                143
+     f3_add_0608                    78
+     f3_sub3_0608                   62
+     sbr16_f3_0608                   3
+
+=== ka2_b1_64_0608 ===
+
+   Number of wires:                417
+   Number of wire bits:           1710
+   Number of public wires:         417
+   Number of public wire bits:    1710
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                287
+     f3_add_0608                   158
+     f3_sub3_0608                  126
+     ka2_b1_32_0608                  3
+
+=== sbr16_f3_0608 ===
+
+   Number of wires:                518
+   Number of wire bits:           1156
+   Number of public wires:         518
+   Number of public wire bits:    1156
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                481
+     f3_add_0608                   225
+     f3_mul_0608                   256
+
+=== sbr17_f3_0608 ===
+
+   Number of wires:                584
+   Number of wire bits:           1296
+   Number of public wires:         584
+   Number of public wire bits:    1296
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                545
+     f3_add_0608                   256
+     f3_mul_0608                   289
+
+=== ub_real_129_0608 ===
+
+   Number of wires:                842
+   Number of wire bits:           3472
+   Number of public wires:         842
+   Number of public wire bits:    3472
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                580
+     f3_add_0608                   321
+     f3_sub3_0608                  256
+     ka2_b1_64_0608                  1
+     ub_real_65_0608                 2
+
+=== ub_real_33_0608 ===
+
+   Number of wires:                218
+   Number of wire bits:            880
+   Number of public wires:         218
+   Number of public wire bits:     880
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                148
+     f3_add_0608                    81
+     f3_sub3_0608                   64
+     sbr16_f3_0608                   1
+     sbr17_f3_0608                   2
+
+=== ub_real_65_0608 ===
+
+   Number of wires:                426
+   Number of wire bits:           1744
+   Number of public wires:         426
+   Number of public wire bits:    1744
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                292
+     f3_add_0608                   161
+     f3_sub3_0608                  128
+     ka2_b1_32_0608                  1
+     ub_real_33_0608                 2
+
+=== design hierarchy ===
+
+   b1_real_0608                      1
+     f3_add_0608                  4853
+     f3_sub3_0608                 4601
+       f3_add_0608                   1
+     ka2_b1_256_0608                 4
+       f3_add_0608                 638
+       f3_sub3_0608                510
+         f3_add_0608                 1
+       ka2_b1_128_0608               3
+         f3_add_0608               318
+         f3_sub3_0608              254
+           f3_add_0608               1
+         ka2_b1_64_0608              3
+           f3_add_0608             158
+           f3_sub3_0608            126
+             f3_add_0608             1
+           ka2_b1_32_0608            3
+             f3_add_0608            78
+             f3_sub3_0608           62
+               f3_add_0608           1
+             sbr16_f3_0608           3
+               f3_add_0608         225
+               f3_mul_0608         256
+     ka2_b1_258_0608                 1
+       f3_add_0608                 643
+       f3_sub3_0608                514
+         f3_add_0608                 1
+       ub_real_129_0608              3
+         f3_add_0608               321
+         f3_sub3_0608              256
+           f3_add_0608               1
+         ka2_b1_64_0608              1
+           f3_add_0608             158
+           f3_sub3_0608            126
+             f3_add_0608             1
+           ka2_b1_32_0608            3
+             f3_add_0608            78
+             f3_sub3_0608           62
+               f3_add_0608           1
+             sbr16_f3_0608           3
+               f3_add_0608         225
+               f3_mul_0608         256
+         ub_real_65_0608             2
+           f3_add_0608             161
+           f3_sub3_0608            128
+             f3_add_0608             1
+           ka2_b1_32_0608            1
+             f3_add_0608            78
+             f3_sub3_0608           62
+               f3_add_0608           1
+             sbr16_f3_0608           3
+               f3_add_0608         225
+               f3_mul_0608         256
+           ub_real_33_0608           2
+             f3_add_0608            81
+             f3_sub3_0608           64
+               f3_add_0608           1
+             sbr16_f3_0608           1
+               f3_add_0608         225
+               f3_mul_0608         256
+             sbr17_f3_0608           2
+               f3_add_0608         256
+               f3_mul_0608         289
+
+   Number of wires:             8243629
+   Number of wire bits:         9595010
+   Number of public wires:      1146313
+   Number of public wire bits:  2497694
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             7651228
+     $_ANDNOT_                  1727527
+     $_AND_                     460853
+     $_MUX_                     669797
+     $_NAND_                    669797
+     $_NOR_                     104472
+     $_NOT_                     356381
+     $_ORNOT_                   313416
+     $_OR_                      1776024
+     $_XNOR_                    294874
+     $_XOR_                     1278087
+
+16.26. Executing CHECK pass (checking for obvious problems).
+Checking module b1_real_0608...
+Checking module f3_add_0608...
+Checking module f3_mul_0608...
+Checking module f3_sub3_0608...
+Checking module ka2_b1_128_0608...
+Checking module ka2_b1_256_0608...
+Checking module ka2_b1_258_0608...
+Checking module ka2_b1_32_0608...
+Checking module ka2_b1_64_0608...
+Checking module sbr16_f3_0608...
+Checking module sbr17_f3_0608...
+Checking module ub_real_129_0608...
+Checking module ub_real_33_0608...
+Checking module ub_real_65_0608...
+Found and reported 0 problems.
+
+17. Executing ABC pass (technology mapping using ABC).
+
+17.1. Extracting gate netlist of module `\b1_real_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+17.2. Extracting gate netlist of module `\f3_add_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 14 gates and 18 wires to a netlist network with 4 inputs and 2 outputs.
+
+17.2.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /path/asic_work/b1_parallel/nangate45.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.06 sec
+ABC: Scl_LibertyReadGenlib() skipped cell "ANTENNA_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X2".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X2" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X4" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X8" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X16" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X32" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC0_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC1_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X8".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X16".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINV_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "TLAT_X1".
+ABC: Library "NangateOpenCellLibrary" from "/path/asic_work/b1_parallel/nangate45.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.09 sec
+ABC: Memory =   11.38 MB. Time =     0.09 sec
+ABC: Warning: Detected 2 multi-output gates (for example, "FA_X1").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+17.2.2. Re-integrating ABC results.
+ABC RESULTS:          OAI22_X1 cells:        1
+ABC RESULTS:          NAND2_X1 cells:        4
+ABC RESULTS:          XNOR2_X1 cells:        4
+ABC RESULTS:        internal signals:       12
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+17.3. Extracting gate netlist of module `\f3_mul_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 53 gates and 57 wires to a netlist network with 4 inputs and 2 outputs.
+
+17.3.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /path/asic_work/b1_parallel/nangate45.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.10 sec
+ABC: Scl_LibertyReadGenlib() skipped cell "ANTENNA_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X2".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X2" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X4" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X8" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X16" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X32" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC0_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC1_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X8".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X16".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINV_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "TLAT_X1".
+ABC: Library "NangateOpenCellLibrary" from "/path/asic_work/b1_parallel/nangate45.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.16 sec
+ABC: Memory =   11.38 MB. Time =     0.16 sec
+ABC: Warning: Detected 2 multi-output gates (for example, "FA_X1").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+17.3.2. Re-integrating ABC results.
+ABC RESULTS:          NAND2_X1 cells:        1
+ABC RESULTS:            INV_X1 cells:        1
+ABC RESULTS:          AOI22_X1 cells:        1
+ABC RESULTS:          NAND4_X1 cells:        1
+ABC RESULTS:            OR2_X1 cells:        1
+ABC RESULTS:          OAI21_X1 cells:        1
+ABC RESULTS:         AOI211_X1 cells:        1
+ABC RESULTS:        internal signals:       51
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+17.4. Extracting gate netlist of module `\f3_sub3_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 2 gates and 4 wires to a netlist network with 2 inputs and 2 outputs.
+
+17.4.1. Executing ABC.
+Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_lib -w /path/asic_work/b1_parallel/nangate45.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.05 sec
+ABC: Scl_LibertyReadGenlib() skipped cell "ANTENNA_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATETST_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X1" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X2" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X4" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped cell "CLKGATE_X8" without logic function.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLH_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "DLL_X2".
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X2" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X4" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X8" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X16" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "FILLCELL_X32" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC0_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped cell "LOGIC1_X1" due to dont_use attribute.
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFRS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFR_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFFS_X2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "SDFF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X1".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X2".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X4".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X8".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TBUF_X16".
+ABC: Scl_LibertyReadGenlib() skipped three-state cell "TINV_X1".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "TLAT_X1".
+ABC: Library "NangateOpenCellLibrary" from "/path/asic_work/b1_parallel/nangate45.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 9 dont_use).  Time =     0.08 sec
+ABC: Memory =   11.38 MB. Time =     0.08 sec
+ABC: Warning: Detected 2 multi-output gates (for example, "FA_X1").
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+17.4.2. Re-integrating ABC results.
+ABC RESULTS:            INV_X1 cells:        1
+ABC RESULTS:           NOR2_X1 cells:        1
+ABC RESULTS:           AND2_X1 cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+17.5. Extracting gate netlist of module `\ka2_b1_128_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+17.6. Extracting gate netlist of module `\ka2_b1_256_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+17.7. Extracting gate netlist of module `\ka2_b1_258_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+17.8. Extracting gate netlist of module `\ka2_b1_32_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+17.9. Extracting gate netlist of module `\ka2_b1_64_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+17.10. Extracting gate netlist of module `\sbr16_f3_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+17.11. Extracting gate netlist of module `\sbr17_f3_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+17.12. Extracting gate netlist of module `\ub_real_129_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+17.13. Extracting gate netlist of module `\ub_real_33_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+17.14. Extracting gate netlist of module `\ub_real_65_0608' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+18. Printing statistics.
+
+=== b1_real_0608 ===
+
+   Number of wires:              11022
+   Number of wire bits:          36356
+   Number of public wires:       11022
+   Number of public wire bits:   36356
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               9459
+     f3_add_0608                  4853
+     f3_sub3_0608                 4601
+     ka2_b1_256_0608                 4
+     ka2_b1_258_0608                 1
+
+   Area for cell type \f3_add_0608 is unknown!
+   Area for cell type \f3_sub3_0608 is unknown!
+   Area for cell type \ka2_b1_256_0608 is unknown!
+   Area for cell type \ka2_b1_258_0608 is unknown!
+
+=== f3_add_0608 ===
+
+   Number of wires:                 28
+   Number of wire bits:             31
+   Number of public wires:           3
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  9
+     NAND2_X1                        4
+     OAI22_X1                        1
+     XNOR2_X1                        4
+
+   Chip area for module '\f3_add_0608': 10.906000
+
+=== f3_mul_0608 ===
+
+   Number of wires:                 65
+   Number of wire bits:             68
+   Number of public wires:           3
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  7
+     AOI211_X1                       1
+     AOI22_X1                        1
+     INV_X1                          1
+     NAND2_X1                        1
+     NAND4_X1                        1
+     OAI21_X1                        1
+     OR2_X1                          1
+
+   Chip area for module '\f3_mul_0608': 7.448000
+
+=== f3_sub3_0608 ===
+
+   Number of wires:                  9
+   Number of wire bits:             13
+   Number of public wires:           4
+   Number of public wire bits:       8
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  4
+     AND2_X1                         1
+     INV_X1                          1
+     NOR2_X1                         1
+     f3_add_0608                     1
+
+   Area for cell type \f3_add_0608 is unknown!
+
+   Chip area for module '\f3_sub3_0608': 2.394000
+
+=== ka2_b1_128_0608 ===
+
+   Number of wires:                833
+   Number of wire bits:           3438
+   Number of public wires:         833
+   Number of public wire bits:    3438
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                575
+     f3_add_0608                   318
+     f3_sub3_0608                  254
+     ka2_b1_64_0608                  3
+
+   Area for cell type \f3_add_0608 is unknown!
+   Area for cell type \f3_sub3_0608 is unknown!
+   Area for cell type \ka2_b1_64_0608 is unknown!
+
+=== ka2_b1_256_0608 ===
+
+   Number of wires:               1665
+   Number of wire bits:           6894
+   Number of public wires:        1665
+   Number of public wire bits:    6894
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1151
+     f3_add_0608                   638
+     f3_sub3_0608                  510
+     ka2_b1_128_0608                 3
+
+   Area for cell type \f3_add_0608 is unknown!
+   Area for cell type \f3_sub3_0608 is unknown!
+   Area for cell type \ka2_b1_128_0608 is unknown!
+
+=== ka2_b1_258_0608 ===
+
+   Number of wires:               1678
+   Number of wire bits:           6948
+   Number of public wires:        1678
+   Number of public wire bits:    6948
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1160
+     f3_add_0608                   643
+     f3_sub3_0608                  514
+     ub_real_129_0608                3
+
+   Area for cell type \f3_add_0608 is unknown!
+   Area for cell type \f3_sub3_0608 is unknown!
+   Area for cell type \ub_real_129_0608 is unknown!
+
+=== ka2_b1_32_0608 ===
+
+   Number of wires:                209
+   Number of wire bits:            846
+   Number of public wires:         209
+   Number of public wire bits:     846
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                143
+     f3_add_0608                    78
+     f3_sub3_0608                   62
+     sbr16_f3_0608                   3
+
+   Area for cell type \f3_add_0608 is unknown!
+   Area for cell type \f3_sub3_0608 is unknown!
+   Area for cell type \sbr16_f3_0608 is unknown!
+
+=== ka2_b1_64_0608 ===
+
+   Number of wires:                417
+   Number of wire bits:           1710
+   Number of public wires:         417
+   Number of public wire bits:    1710
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                287
+     f3_add_0608                   158
+     f3_sub3_0608                  126
+     ka2_b1_32_0608                  3
+
+   Area for cell type \f3_add_0608 is unknown!
+   Area for cell type \f3_sub3_0608 is unknown!
+   Area for cell type \ka2_b1_32_0608 is unknown!
+
+=== sbr16_f3_0608 ===
+
+   Number of wires:                518
+   Number of wire bits:           1156
+   Number of public wires:         518
+   Number of public wire bits:    1156
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                481
+     f3_add_0608                   225
+     f3_mul_0608                   256
+
+   Area for cell type \f3_add_0608 is unknown!
+   Area for cell type \f3_mul_0608 is unknown!
+
+=== sbr17_f3_0608 ===
+
+   Number of wires:                584
+   Number of wire bits:           1296
+   Number of public wires:         584
+   Number of public wire bits:    1296
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                545
+     f3_add_0608                   256
+     f3_mul_0608                   289
+
+   Area for cell type \f3_add_0608 is unknown!
+   Area for cell type \f3_mul_0608 is unknown!
+
+=== ub_real_129_0608 ===
+
+   Number of wires:                842
+   Number of wire bits:           3472
+   Number of public wires:         842
+   Number of public wire bits:    3472
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                580
+     f3_add_0608                   321
+     f3_sub3_0608                  256
+     ka2_b1_64_0608                  1
+     ub_real_65_0608                 2
+
+   Area for cell type \f3_add_0608 is unknown!
+   Area for cell type \f3_sub3_0608 is unknown!
+   Area for cell type \ka2_b1_64_0608 is unknown!
+   Area for cell type \ub_real_65_0608 is unknown!
+
+=== ub_real_33_0608 ===
+
+   Number of wires:                218
+   Number of wire bits:            880
+   Number of public wires:         218
+   Number of public wire bits:     880
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                148
+     f3_add_0608                    81
+     f3_sub3_0608                   64
+     sbr16_f3_0608                   1
+     sbr17_f3_0608                   2
+
+   Area for cell type \f3_add_0608 is unknown!
+   Area for cell type \f3_sub3_0608 is unknown!
+   Area for cell type \sbr16_f3_0608 is unknown!
+   Area for cell type \sbr17_f3_0608 is unknown!
+
+=== ub_real_65_0608 ===
+
+   Number of wires:                426
+   Number of wire bits:           1744
+   Number of public wires:         426
+   Number of public wire bits:    1744
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                292
+     f3_add_0608                   161
+     f3_sub3_0608                  128
+     ka2_b1_32_0608                  1
+     ub_real_33_0608                 2
+
+   Area for cell type \f3_add_0608 is unknown!
+   Area for cell type \f3_sub3_0608 is unknown!
+   Area for cell type \ka2_b1_32_0608 is unknown!
+   Area for cell type \ub_real_33_0608 is unknown!
+
+=== design hierarchy ===
+
+   b1_real_0608                      1
+     f3_add_0608                  4853
+     f3_sub3_0608                 4601
+       f3_add_0608                   1
+     ka2_b1_256_0608                 4
+       f3_add_0608                 638
+       f3_sub3_0608                510
+         f3_add_0608                 1
+       ka2_b1_128_0608               3
+         f3_add_0608               318
+         f3_sub3_0608              254
+           f3_add_0608               1
+         ka2_b1_64_0608              3
+           f3_add_0608             158
+           f3_sub3_0608            126
+             f3_add_0608             1
+           ka2_b1_32_0608            3
+             f3_add_0608            78
+             f3_sub3_0608           62
+               f3_add_0608           1
+             sbr16_f3_0608           3
+               f3_add_0608         225
+               f3_mul_0608         256
+     ka2_b1_258_0608                 1
+       f3_add_0608                 643
+       f3_sub3_0608                514
+         f3_add_0608                 1
+       ub_real_129_0608              3
+         f3_add_0608               321
+         f3_sub3_0608              256
+           f3_add_0608               1
+         ka2_b1_64_0608              1
+           f3_add_0608             158
+           f3_sub3_0608            126
+             f3_add_0608             1
+           ka2_b1_32_0608            3
+             f3_add_0608            78
+             f3_sub3_0608           62
+               f3_add_0608           1
+             sbr16_f3_0608           3
+               f3_add_0608         225
+               f3_mul_0608         256
+         ub_real_65_0608             2
+           f3_add_0608             161
+           f3_sub3_0608            128
+             f3_add_0608             1
+           ka2_b1_32_0608            1
+             f3_add_0608            78
+             f3_sub3_0608           62
+               f3_add_0608           1
+             sbr16_f3_0608           3
+               f3_add_0608         225
+               f3_mul_0608         256
+           ub_real_33_0608           2
+             f3_add_0608            81
+             f3_sub3_0608           64
+               f3_add_0608           1
+             sbr16_f3_0608           1
+               f3_add_0608         225
+               f3_mul_0608         256
+             sbr17_f3_0608           2
+               f3_add_0608         256
+               f3_mul_0608         289
+
+   Number of wires:             11434737
+   Number of wire bits:         12786118
+   Number of public wires:      1146313
+   Number of public wire bits:  2497694
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             2133378
+     AND2_X1                     25047
+     AOI211_X1                  104472
+     AOI22_X1                   104472
+     INV_X1                     129519
+     NAND2_X1                   694220
+     NAND4_X1                   104472
+     NOR2_X1                     25047
+     OAI21_X1                   104472
+     OAI22_X1                   147437
+     OR2_X1                     104472
+     XNOR2_X1                   589748
+
+   Chip area for top module '\b1_real_0608': 2446017.896000
+
+End of script. Logfile hash: 034120915c, CPU: user 22.36s system 0.57s, MEM: 342.44 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 27% 50x opt_clean (6 sec), 14% 1x techmap (3 sec), ...
