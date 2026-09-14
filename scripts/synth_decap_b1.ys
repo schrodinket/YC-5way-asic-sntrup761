@@ -1,0 +1,28 @@
+read_verilog -sv vhdl/decap_b1_clean.v
+# B1 multiplier + bridge
+read_verilog vlog/r3_b1_bridge.v
+read_verilog vlog/b1_r3_761_serial_0608_1414.v
+read_verilog vlog/b1_real_serial_0608.v
+read_verilog vlog/sbr16_f3_0608.v
+read_verilog vlog/sbr17_f3_0608.v
+read_verilog vlog/f3_add.v
+read_verilog vlog/f3_add_0608.v
+read_verilog vlog/f3_mul_0608.v
+read_verilog vlog/f3_sub3_0608.v
+read_verilog vlog/f3_mul.v
+read_verilog vlog/f3_sub3.v
+# Peng encoding (ortak)
+read_verilog vlog/decode_rp.v
+read_verilog vlog/encode_rp.v
+read_verilog vlog/barrett.v
+read_verilog vlog/bram.v
+read_verilog vlog/rp761param.v
+read_verilog vlog/params.v
+read_verilog vlog/modmul4591S28.v
+read_verilog vlog/mod4591Svec28.v
+
+hierarchy -top key_decap_wrapper_b1
+synth -top key_decap_wrapper_b1
+dfflibmap -liberty nangate45.lib
+abc -liberty nangate45.lib
+stat -liberty nangate45.lib

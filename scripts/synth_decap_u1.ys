@@ -1,0 +1,29 @@
+read_verilog -sv vhdl/decap_u1_clean.v
+read_verilog vlog/r3_u1_bridge.v
+read_verilog vlog/u1_r3_1engine_0610.v
+read_verilog vlog/ue_v14_real_1engine_0610.v
+read_verilog vlog/ue_v12_complex_pipe_0610.v
+read_verilog vlog/ub_complex_31_pipe4.v
+read_verilog vlog/ub_complex_31.v
+read_verilog vlog/sb16_f9_pipe.v
+read_verilog vlog/sb15_f9_pipe.v
+read_verilog vlog/sb16_f9.v
+read_verilog vlog/sb15_f9.v
+read_verilog vlog/f9_mul.v
+read_verilog vlog/f3_mul.v
+read_verilog vlog/f3_add.v
+read_verilog vlog/f3_sub3.v
+read_verilog vlog/decode_rp.v
+read_verilog vlog/encode_rp.v
+read_verilog vlog/barrett.v
+read_verilog vlog/bram.v
+read_verilog vlog/rp761param.v
+read_verilog vlog/params.v
+read_verilog vlog/modmul4591S28.v
+read_verilog vlog/mod4591Svec28.v
+
+hierarchy -top key_decap_wrapper_u1
+synth -top key_decap_wrapper_u1
+dfflibmap -liberty nangate45.lib
+abc -liberty nangate45.lib
+stat -liberty nangate45.lib

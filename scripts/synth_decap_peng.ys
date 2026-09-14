@@ -1,0 +1,16 @@
+read_verilog -sv vhdl/decap_peng_clean.v
+# Peng encoding (ortak)
+read_verilog vlog/decode_rp.v
+read_verilog vlog/encode_rp.v
+read_verilog vlog/barrett.v
+read_verilog vlog/bram.v
+read_verilog vlog/rp761param.v
+read_verilog vlog/params.v
+read_verilog vlog/modmul4591S28.v
+read_verilog vlog/mod4591Svec28.v
+
+hierarchy -top key_decap_wrapper
+synth -top key_decap_wrapper
+dfflibmap -liberty nangate45.lib
+abc -liberty nangate45.lib
+stat -liberty nangate45.lib
