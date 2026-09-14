@@ -1,7 +1,5 @@
--- Entity declarations for the Verilog modules that the Peng VHDL instantiates.
--- GHDL elaborates against these empty architectures; Yosys links the real Verilog.
--- Widths from params.v: RP_DEPTH=10, RP_D_SIZE=14, RP_INV_SIZE=27, OUT_DEPTH=11,
--- OUT_D_SIZE=8. So RP_DEPTH-1=9, RP_DEPTH-2=8, OUT_DEPTH-1=10.
+-- Stubs for the Verilog modules called from the Peng VHDL, so GHDL can elaborate.
+-- Yosys links the real Verilog. Widths follow params.v.
 
 library ieee;
 use ieee.std_logic_1164.all;
