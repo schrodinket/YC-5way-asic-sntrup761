@@ -18,7 +18,7 @@ Three multipliers, each integrated into the same sntrup761 decapsulation:
 
 ```
 src/vhdl/    VHDL sources (decapsulation, memories, freeze, encoding wrappers)
-data/          reference-C operation-count harness (U1/B1 by Yeniaras-Cenk; I/O from Peng) + KAT inputs
+data/          reference-C harness (U1/B1 by Yeniaras-Cenk; I/O from Peng), KAT inputs, and pqm4 3-way-Karatsuba evidence (U1/B1 by Yeniaras-Cenk; I/O from Peng) + KAT inputs
 src/testbench/ Verilog testbenches
 src/vlog/    Verilog sources (U1/B1 multipliers, bridges, Peng encoding)
 src/nangate45.lib   standard-cell library
