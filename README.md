@@ -1,7 +1,7 @@
 # ASIC Synthesis Artifact: Five-Way Characteristic-Three Multiplication for NTRU Prime
 
 This artifact reproduces the ASIC synthesis results for three sntrup761
-R/3 multipliers and their full-decapsulation integration, on the Nangate 45 nm
+R/3 multipliers and their decapsulation-core integration, on the Nangate 45 nm
 open cell library.
 
 ## Designs
@@ -37,11 +37,11 @@ Appendix (Synthesis reproduction) lists the same mapping.
 | `synth_mult_peng.log`  | Peng parallel-schoolbook multiplier          | 320,057   | 0.32 mm^2 |
 | `synth_comb_u1.log`    | U1 fully combinational                       | 2,705,068 | 2.71 mm^2 |
 | `synth_comb_b1.log`    | B1 fully combinational                       | 2,446,018 | 2.45 mm^2 |
-| `synth_decap_u1.log`   | U1-integrated full decapsulation             | 972,392   | 0.97 mm^2 |
-| `synth_decap_b1.log`   | B1-integrated full decapsulation             | 1,443,994 | 1.44 mm^2 |
+| `synth_decap_u1.log`   | U1 decapsulation core             | 972,392   | 0.97 mm^2 |
+| `synth_decap_b1.log`   | B1 decapsulation core             | 1,443,994 | 1.44 mm^2 |
 | `synth_decap_peng.log` | Peng decapsulation wrapper (multiplier at top level, added separately) | 479,108 | 0.48 mm^2 |
 
-Peng full decapsulation in the paper is 0.80 mm^2 = 0.48 (wrapper) + 0.32 (shared
+Peng decapsulation core in the paper is 0.80 mm^2 = 0.48 (wrapper) + 0.32 (shared
 multiplier), since Peng instantiates its multiplier at the top level rather than inside
 the decapsulation.
 
@@ -77,7 +77,7 @@ with GHDL, then synthesized together with the real Verilog multipliers.
 
 Repeat for B1 (synth_decap_b1.ys) and Peng (synth_decap_peng.ys).
 
-## Results (full decapsulation, Nangate 45 nm)
+## Results (decapsulation core, Nangate 45 nm)
 
 | Design | Area (mm^2) | Cycles | ADP (mm^2 x cyc) |
 |---|---|---|---|
