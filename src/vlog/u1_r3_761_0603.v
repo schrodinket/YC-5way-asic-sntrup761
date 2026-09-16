@@ -1,6 +1,6 @@
-// u1_r3_761: TAM R/3 carpici (carpim + indirgeme), kombinatoryel HIZ
-// ue_v14_real (1521 katsayi) + optimize tek-katman indirgeme (761)
-// Indirgeme: x^761 = x+1, ZINCIRLEME YOK (matematiksel olarak tek katman yeterli)
+// u1_r3_761: full R/3 multiplier (product + reduction), combinational
+// ue_v14_real (1521 coeffs) + single-layer reduction (761)
+// Reduction: x^761 = x+1, no chaining (a single layer suffices)
 module u1_r3_761 (
     input  [1521:0] ar, input [1521:0] br,
     output [1521:0] cr
